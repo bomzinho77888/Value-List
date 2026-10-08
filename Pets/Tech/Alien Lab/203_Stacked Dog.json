@@ -1,0 +1,18 @@
+{
+  "id": "203",
+  "name": "Stacked Dog",
+  "rarity": "Rare",
+  "egg": "Golden Lab Egg",
+  "area": "Alien Lab",
+  "world": "Tech",
+  "dropChance": 2.75,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Lab/203_Stacked Dog.png",
+  "goldenThumbnail": "Images/Tech/Alien Lab/203_Stacked Dog_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Lab/203_Stacked Dog_DarkMatter.png",
+  "strengthMin": 90000000,
+  "strengthMax": 92000000,
+  "rainbowThumbnail": "Images/Tech/Alien Lab/203_Stacked Dog_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "44",
+  "name": "Goldfish",
+  "rarity": "Rare",
+  "egg": "Golden Beachball Egg",
+  "area": "Beach",
+  "world": "Spawn",
+  "dropChance": 8,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Beach/44_Goldfish.png",
+  "goldenThumbnail": "Images/Spawn/Beach/44_Goldfish_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Beach/44_Goldfish_DarkMatter.png",
+  "strengthMin": 67,
+  "strengthMax": 69,
+  "rainbowThumbnail": "Images/Spawn/Beach/44_Goldfish_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "233",
+  "name": "Star Surfer",
+  "rarity": "Legendary",
+  "egg": "Golden Martian Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 0.0135,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/233_Star Surfer.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/233_Star Surfer_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/233_Star Surfer_DarkMatter.png",
+  "strengthMin": 2036562500,
+  "strengthMax": 2240218750,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/233_Star Surfer_Rainbow.png"
+}

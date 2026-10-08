@@ -1,0 +1,18 @@
+{
+  "id": "159",
+  "name": "Robot",
+  "rarity": "Rare",
+  "egg": "Golden Dark Tech Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 3,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/159_Robot.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/159_Robot_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/159_Robot_DarkMatter.png",
+  "strengthMin": 12750000,
+  "strengthMax": 13750000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/159_Robot_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "285",
+  "name": "Glitched Phoenix",
+  "rarity": "Legendary",
+  "egg": "Golden Glitch Egg",
+  "area": "Glitch",
+  "world": "Tech",
+  "dropChance": 0.01,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Glitch/285_Glitched Phoenix.png",
+  "goldenThumbnail": "Images/Tech/Glitch/285_Glitched Phoenix_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Glitch/285_Glitched Phoenix_DarkMatter.png",
+  "strengthMin": 8927968748,
+  "strengthMax": 9227968748,
+  "rainbowThumbnail": "Images/Tech/Glitch/285_Glitched Phoenix_Rainbow.png"
+}

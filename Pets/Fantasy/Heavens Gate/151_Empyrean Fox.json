@@ -1,0 +1,18 @@
+{
+  "id": "151",
+  "name": "Empyrean Fox",
+  "rarity": "Epic",
+  "egg": "Empyrean Egg",
+  "area": "Heavens Gate",
+  "world": "Fantasy",
+  "dropChance": 25,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heavens Gate/151_Empyrean Fox.png",
+  "goldenThumbnail": "Images/Fantasy/Heavens Gate/151_Empyrean Fox_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heavens Gate/151_Empyrean Fox_DarkMatter.png",
+  "strengthMin": 3900000,
+  "strengthMax": 4100000,
+  "rainbowThumbnail": "Images/Fantasy/Heavens Gate/151_Empyrean Fox_Rainbow.png"
+}

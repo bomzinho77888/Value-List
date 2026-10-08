@@ -1,0 +1,18 @@
+{
+  "id": "284",
+  "name": "Glitched Unicorn",
+  "rarity": "Legendary",
+  "egg": "Golden Glitch Egg",
+  "area": "Glitch",
+  "world": "Tech",
+  "dropChance": 0.015,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Glitch/284_Glitched Unicorn.png",
+  "goldenThumbnail": "Images/Tech/Glitch/284_Glitched Unicorn_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Glitch/284_Glitched Unicorn_DarkMatter.png",
+  "strengthMin": 7927968748,
+  "strengthMax": 8127968748,
+  "rainbowThumbnail": "Images/Tech/Glitch/284_Glitched Unicorn_Rainbow.png"
+}

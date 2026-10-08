@@ -1,0 +1,18 @@
+{
+  "id": "3",
+  "name": "Bunny",
+  "rarity": "Basic",
+  "egg": "Cracked Egg",
+  "area": "Town",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Town/3_Bunny.png",
+  "goldenThumbnail": "Images/Spawn/Town/3_Bunny_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Town/3_Bunny_DarkMatter.png",
+  "strengthMin": 2,
+  "strengthMax": 3,
+  "rainbowThumbnail": "Images/Spawn/Town/3_Bunny_Rainbow.png"
+}

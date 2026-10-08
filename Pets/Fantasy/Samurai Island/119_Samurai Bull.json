@@ -1,0 +1,18 @@
+{
+  "id": "119",
+  "name": "Samurai Bull",
+  "rarity": "Epic",
+  "egg": "Golden Samurai Egg",
+  "area": "Samurai Island",
+  "world": "Fantasy",
+  "dropChance": 1.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Samurai Island/119_Samurai Bull.png",
+  "goldenThumbnail": "Images/Fantasy/Samurai Island/119_Samurai Bull_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Samurai Island/119_Samurai Bull_DarkMatter.png",
+  "strengthMin": 120000,
+  "strengthMax": 122500,
+  "rainbowThumbnail": "Images/Fantasy/Samurai Island/119_Samurai Bull_Rainbow.png"
+}

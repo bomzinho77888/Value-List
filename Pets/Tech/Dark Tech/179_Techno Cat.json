@@ -1,0 +1,18 @@
+{
+  "id": "179",
+  "name": "Techno Cat",
+  "rarity": "Legendary",
+  "egg": "Golden Dark Tech Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 0.0175,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/179_Techno Cat.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/179_Techno Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/179_Techno Cat_DarkMatter.png",
+  "strengthMin": 46500000,
+  "strengthMax": 47500000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/179_Techno Cat_Rainbow.png"
+}

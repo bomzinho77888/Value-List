@@ -1,0 +1,18 @@
+{
+  "id": "92",
+  "name": "Angel Dog",
+  "rarity": "Basic",
+  "egg": "Golden Heaven Egg",
+  "area": "Heaven Island",
+  "world": "Fantasy",
+  "dropChance": 50,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heaven Island/92_Angel Dog.png",
+  "goldenThumbnail": "Images/Fantasy/Heaven Island/92_Angel Dog_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heaven Island/92_Angel Dog_DarkMatter.png",
+  "strengthMin": 575000,
+  "strengthMax": 600000,
+  "rainbowThumbnail": "Images/Fantasy/Heaven Island/92_Angel Dog_Rainbow.png"
+}

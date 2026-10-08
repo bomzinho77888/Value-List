@@ -1,0 +1,18 @@
+{
+  "id": "173",
+  "name": "Cyber Bunny",
+  "rarity": "Basic",
+  "egg": "Titanium Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/173_Cyber Bunny.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/173_Cyber Bunny_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/173_Cyber Bunny_DarkMatter.png",
+  "strengthMin": 3500000,
+  "strengthMax": 3600000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/173_Cyber Bunny_Rainbow.png"
+}

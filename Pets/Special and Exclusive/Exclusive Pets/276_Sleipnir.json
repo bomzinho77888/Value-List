@@ -1,0 +1,18 @@
+{
+  "id": "276",
+  "name": "Sleipnir",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/276_Sleipnir.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/276_Sleipnir_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 0,
+  "strengthMax": 0,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/276_Sleipnir_Rainbow.png"
+}

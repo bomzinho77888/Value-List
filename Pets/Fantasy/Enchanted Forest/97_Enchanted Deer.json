@@ -1,0 +1,18 @@
+{
+  "id": "97",
+  "name": "Enchanted Deer",
+  "rarity": "Epic",
+  "egg": "Golden Enchanted Egg",
+  "area": "Enchanted Forest",
+  "world": "Fantasy",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Enchanted Forest/97_Enchanted Deer.png",
+  "goldenThumbnail": "Images/Fantasy/Enchanted Forest/97_Enchanted Deer_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Enchanted Forest/97_Enchanted Deer_DarkMatter.png",
+  "strengthMin": 39000,
+  "strengthMax": 40000,
+  "rainbowThumbnail": "Images/Fantasy/Enchanted Forest/97_Enchanted Deer_Rainbow.png"
+}

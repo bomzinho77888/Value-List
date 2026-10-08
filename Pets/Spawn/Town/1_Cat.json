@@ -1,0 +1,18 @@
+{
+  "id": "1",
+  "name": "Cat",
+  "rarity": "Basic",
+  "egg": "Cracked Egg",
+  "area": "Town",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Town/1_Cat.png",
+  "goldenThumbnail": "Images/Spawn/Town/1_Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Town/1_Cat_DarkMatter.png",
+  "strengthMin": 2,
+  "strengthMax": 3,
+  "rainbowThumbnail": "Images/Spawn/Town/1_Cat_Rainbow.png"
+}

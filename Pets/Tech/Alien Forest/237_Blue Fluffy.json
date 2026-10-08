@@ -1,0 +1,18 @@
+{
+  "id": "237",
+  "name": "Blue Fluffy",
+  "rarity": "Epic",
+  "egg": "Planet Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/237_Blue Fluffy.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/237_Blue Fluffy_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/237_Blue Fluffy_DarkMatter.png",
+  "strengthMin": 1781992188,
+  "strengthMax": 1960191407,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/237_Blue Fluffy_Rainbow.png"
+}

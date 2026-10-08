@@ -1,0 +1,18 @@
+{
+  "id": "95",
+  "name": "Froggy",
+  "rarity": "Basic",
+  "egg": "Golden Enchanted Egg",
+  "area": "Enchanted Forest",
+  "world": "Fantasy",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Enchanted Forest/95_Froggy.png",
+  "goldenThumbnail": "Images/Fantasy/Enchanted Forest/95_Froggy_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Enchanted Forest/95_Froggy_DarkMatter.png",
+  "strengthMin": 12000,
+  "strengthMax": 12100,
+  "rainbowThumbnail": "Images/Fantasy/Enchanted Forest/95_Froggy_Rainbow.png"
+}

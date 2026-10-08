@@ -1,0 +1,18 @@
+{
+  "id": "29",
+  "name": "Snowman",
+  "rarity": "Epic",
+  "egg": "Ice Egg",
+  "area": "Winter",
+  "world": "Spawn",
+  "dropChance": 0.45,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Winter/29_Snowman.png",
+  "goldenThumbnail": "Images/Spawn/Winter/29_Snowman_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Winter/29_Snowman_DarkMatter.png",
+  "strengthMin": 580,
+  "strengthMax": 590,
+  "rainbowThumbnail": "Images/Spawn/Winter/29_Snowman_Rainbow.png"
+}

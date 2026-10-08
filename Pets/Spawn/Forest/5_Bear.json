@@ -1,0 +1,18 @@
+{
+  "id": "5",
+  "name": "Bear",
+  "rarity": "Basic",
+  "egg": "Golden Wood Egg",
+  "area": "Forest",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Forest/5_Bear.png",
+  "goldenThumbnail": "Images/Spawn/Forest/5_Bear_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Forest/5_Bear_DarkMatter.png",
+  "strengthMin": 12,
+  "strengthMax": 13,
+  "rainbowThumbnail": "Images/Spawn/Forest/5_Bear_Rainbow.png"
+}

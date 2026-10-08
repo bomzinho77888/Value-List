@@ -1,0 +1,18 @@
+{
+  "id": "89",
+  "name": "Samurai Dragon",
+  "rarity": "Legendary",
+  "egg": "Golden Samurai Egg",
+  "area": "Samurai Island",
+  "world": "Fantasy",
+  "dropChance": 0.5,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Samurai Island/89_Samurai Dragon.png",
+  "goldenThumbnail": "Images/Fantasy/Samurai Island/89_Samurai Dragon_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Samurai Island/89_Samurai Dragon_DarkMatter.png",
+  "strengthMin": 235000,
+  "strengthMax": 240000,
+  "rainbowThumbnail": "Images/Fantasy/Samurai Island/89_Samurai Dragon_Rainbow.png"
+}

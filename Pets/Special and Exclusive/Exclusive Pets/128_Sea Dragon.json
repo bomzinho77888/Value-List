@@ -1,0 +1,18 @@
+{
+  "id": "128",
+  "name": "Sea Dragon",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/128_Sea Dragon.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/128_Sea Dragon_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Exclusive Pets/128_Sea Dragon_DarkMatter.png",
+  "strengthMin": 2,
+  "strengthMax": 3,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/128_Sea Dragon_Rainbow.png"
+}

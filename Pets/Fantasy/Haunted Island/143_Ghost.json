@@ -1,0 +1,18 @@
+{
+  "id": "143",
+  "name": "Ghost",
+  "rarity": "Basic",
+  "egg": "Haunted Egg",
+  "area": "Haunted Island",
+  "world": "Fantasy",
+  "dropChance": 40,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Haunted Island/143_Ghost.png",
+  "goldenThumbnail": "Images/Fantasy/Haunted Island/143_Ghost_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Haunted Island/143_Ghost_DarkMatter.png",
+  "strengthMin": 130000,
+  "strengthMax": 135000,
+  "rainbowThumbnail": "Images/Fantasy/Haunted Island/143_Ghost_Rainbow.png"
+}

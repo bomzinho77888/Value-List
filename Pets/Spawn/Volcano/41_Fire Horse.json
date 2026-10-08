@@ -1,0 +1,18 @@
+{
+  "id": "41",
+  "name": "Fire Horse",
+  "rarity": "Epic",
+  "egg": "Obsidian Egg",
+  "area": "Volcano",
+  "world": "Spawn",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Volcano/41_Fire Horse.png",
+  "goldenThumbnail": "Images/Spawn/Volcano/41_Fire Horse_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Volcano/41_Fire Horse_DarkMatter.png",
+  "strengthMin": 5450,
+  "strengthMax": 5525,
+  "rainbowThumbnail": "Images/Spawn/Volcano/41_Fire Horse_Rainbow.png"
+}

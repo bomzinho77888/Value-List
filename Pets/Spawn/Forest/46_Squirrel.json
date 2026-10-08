@@ -1,0 +1,18 @@
+{
+  "id": "46",
+  "name": "Squirrel",
+  "rarity": "Basic",
+  "egg": "Golden Grass Egg",
+  "area": "Forest",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Forest/46_Squirrel.png",
+  "goldenThumbnail": "Images/Spawn/Forest/46_Squirrel_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Forest/46_Squirrel_DarkMatter.png",
+  "strengthMin": 24,
+  "strengthMax": 25,
+  "rainbowThumbnail": "Images/Spawn/Forest/46_Squirrel_Rainbow.png"
+}

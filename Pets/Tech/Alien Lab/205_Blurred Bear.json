@@ -1,0 +1,18 @@
+{
+  "id": "205",
+  "name": "Blurred Bear",
+  "rarity": "Basic",
+  "egg": "Chemical Egg",
+  "area": "Alien Lab",
+  "world": "Tech",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Lab/205_Blurred Bear.png",
+  "goldenThumbnail": "Images/Tech/Alien Lab/205_Blurred Bear_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Lab/205_Blurred Bear_DarkMatter.png",
+  "strengthMin": 83125000,
+  "strengthMax": 91437500,
+  "rainbowThumbnail": "Images/Tech/Alien Lab/205_Blurred Bear_Rainbow.png"
+}

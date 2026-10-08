@@ -1,0 +1,18 @@
+{
+  "id": "235",
+  "name": "Alien Arachnid",
+  "rarity": "Rare",
+  "egg": "Planet Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 6.25,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/235_Alien Arachnid.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/235_Alien Arachnid_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/235_Alien Arachnid_DarkMatter.png",
+  "strengthMin": 890996094,
+  "strengthMax": 980095703,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/235_Alien Arachnid_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "190",
+  "name": "Sophisticated Fox",
+  "rarity": "Legendary",
+  "egg": "Golden Steampunk Egg",
+  "area": "Steampunk",
+  "world": "Tech",
+  "dropChance": 0.015,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Steampunk/190_Sophisticated Fox.png",
+  "goldenThumbnail": "Images/Tech/Steampunk/190_Sophisticated Fox_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Steampunk/190_Sophisticated Fox_DarkMatter.png",
+  "strengthMin": 80000000,
+  "strengthMax": 82500000,
+  "rainbowThumbnail": "Images/Tech/Steampunk/190_Sophisticated Fox_Rainbow.png"
+}

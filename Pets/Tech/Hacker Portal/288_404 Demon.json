@@ -1,0 +1,18 @@
+{
+  "id": "288",
+  "name": "404 Demon",
+  "rarity": "Mythical",
+  "egg": "Hacker Egg",
+  "area": "Hacker Portal",
+  "world": "Tech",
+  "dropChance": 0.0035,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Hacker Portal/288_404 Demon.png",
+  "goldenThumbnail": "Images/Tech/Hacker Portal/288_404 Demon_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Hacker Portal/288_404 Demon_DarkMatter.png",
+  "strengthMin": 247140000000,
+  "strengthMax": 275140000000,
+  "rainbowThumbnail": "Images/Tech/Hacker Portal/288_404 Demon_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "122",
+  "name": "Hellhound",
+  "rarity": "Rare",
+  "egg": "Hell Egg",
+  "area": "Hell Island",
+  "world": "Fantasy",
+  "dropChance": 3.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Hell Island/122_Hellhound.png",
+  "goldenThumbnail": "Images/Fantasy/Hell Island/122_Hellhound_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Hell Island/122_Hellhound_DarkMatter.png",
+  "strengthMin": 355000,
+  "strengthMax": 360000,
+  "rainbowThumbnail": "Images/Fantasy/Hell Island/122_Hellhound_Rainbow.png"
+}

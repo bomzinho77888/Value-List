@@ -1,0 +1,18 @@
+{
+  "id": "50",
+  "name": "Cheerful Yeti",
+  "rarity": "Epic",
+  "egg": "Golden Yeti Egg",
+  "area": "Glacier",
+  "world": "Spawn",
+  "dropChance": 0.3,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Glacier/50_Cheerful Yeti.png",
+  "goldenThumbnail": "Images/Spawn/Glacier/50_Cheerful Yeti_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Glacier/50_Cheerful Yeti_DarkMatter.png",
+  "strengthMin": 1500,
+  "strengthMax": 1550,
+  "rainbowThumbnail": "Images/Spawn/Glacier/50_Cheerful Yeti_Rainbow.png"
+}

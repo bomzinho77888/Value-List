@@ -1,0 +1,18 @@
+{
+  "id": "43",
+  "name": "Blue Fish",
+  "rarity": "Basic",
+  "egg": "Golden Beachball Egg",
+  "area": "Beach",
+  "world": "Spawn",
+  "dropChance": 30,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Beach/43_Blue Fish.png",
+  "goldenThumbnail": "Images/Spawn/Beach/43_Blue Fish_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Beach/43_Blue Fish_DarkMatter.png",
+  "strengthMin": 43,
+  "strengthMax": 45,
+  "rainbowThumbnail": "Images/Spawn/Beach/43_Blue Fish_Rainbow.png"
+}

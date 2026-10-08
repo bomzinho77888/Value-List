@@ -1,0 +1,18 @@
+{
+  "id": "22",
+  "name": "Mortuus",
+  "rarity": "Legendary",
+  "egg": "Golden Geode Egg",
+  "area": "Mine",
+  "world": "Spawn",
+  "dropChance": 0.04,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Mine/22_Mortuus.png",
+  "goldenThumbnail": "Images/Spawn/Mine/22_Mortuus_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Mine/22_Mortuus_DarkMatter.png",
+  "strengthMin": 450,
+  "strengthMax": 455,
+  "rainbowThumbnail": "Images/Spawn/Mine/22_Mortuus_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "305",
+  "name": "Axolotuus",
+  "rarity": "Rare",
+  "egg": "Golden Shiny Axolotl Egg",
+  "area": "Axolotl Deep Ocean",
+  "world": "Axolotl Ocean",
+  "dropChance": 3.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/305_Axolotuus.png",
+  "goldenThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/305_Axolotuus_Golden.png",
+  "darkMatterThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/305_Axolotuus_DarkMatter.png",
+  "strengthMin": 173125000000,
+  "strengthMax": 188125000000,
+  "rainbowThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/305_Axolotuus_Rainbow.png"
+}

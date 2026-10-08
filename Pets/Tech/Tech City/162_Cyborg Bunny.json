@@ -1,0 +1,18 @@
+{
+  "id": "162",
+  "name": "Cyborg Bunny",
+  "rarity": "Rare",
+  "egg": "Golden Metal Egg",
+  "area": "Tech City",
+  "world": "Tech",
+  "dropChance": 2,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Tech City/162_Cyborg Bunny.png",
+  "goldenThumbnail": "Images/Tech/Tech City/162_Cyborg Bunny_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Tech City/162_Cyborg Bunny_DarkMatter.png",
+  "strengthMin": 1650000,
+  "strengthMax": 1750000,
+  "rainbowThumbnail": "Images/Tech/Tech City/162_Cyborg Bunny_Rainbow.png"
+}

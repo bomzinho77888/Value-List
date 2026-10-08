@@ -1,0 +1,18 @@
+{
+  "id": "150",
+  "name": "Empyrean Dragon",
+  "rarity": "Legendary",
+  "egg": "Empyrean Egg",
+  "area": "Heavens Gate",
+  "world": "Fantasy",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heavens Gate/150_Empyrean Dragon.png",
+  "goldenThumbnail": "Images/Fantasy/Heavens Gate/150_Empyrean Dragon_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heavens Gate/150_Empyrean Dragon_DarkMatter.png",
+  "strengthMin": 5750000,
+  "strengthMax": 6000000,
+  "rainbowThumbnail": "Images/Fantasy/Heavens Gate/150_Empyrean Dragon_Rainbow.png"
+}

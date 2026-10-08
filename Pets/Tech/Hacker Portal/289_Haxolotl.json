@@ -1,0 +1,17 @@
+{
+  "id": "289",
+  "name": "Haxolotl",
+  "rarity": "Legendary",
+  "egg": "Hacker Egg",
+  "area": "Hacker Portal",
+  "world": "Tech",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": null,
+  "goldenThumbnail": "Images/Tech/Hacker Portal/289_Haxolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Hacker Portal/289_Haxolotl_DarkMatter.png",
+  "strengthMin": 61785000000,
+  "strengthMax": 65185000000
+}

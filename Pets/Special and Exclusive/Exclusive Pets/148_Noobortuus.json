@@ -1,0 +1,18 @@
+{
+  "id": "148",
+  "name": "Noobortuus",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/148_Noobortuus.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/148_Noobortuus_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 2,
+  "strengthMax": 3,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/148_Noobortuus_Rainbow.png"
+}

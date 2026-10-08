@@ -1,0 +1,18 @@
+{
+  "id": "125",
+  "name": "Heavenly Peacock",
+  "rarity": "Epic",
+  "egg": "Golden Heaven Egg",
+  "area": "Heaven Island",
+  "world": "Fantasy",
+  "dropChance": 3,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heaven Island/125_Heavenly Peacock.png",
+  "goldenThumbnail": "Images/Fantasy/Heaven Island/125_Heavenly Peacock_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heaven Island/125_Heavenly Peacock_DarkMatter.png",
+  "strengthMin": 1350000,
+  "strengthMax": 1380000,
+  "rainbowThumbnail": "Images/Fantasy/Heaven Island/125_Heavenly Peacock_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "209",
+  "name": "Dominus Alienus",
+  "rarity": "Mythical",
+  "egg": "Chemical Egg",
+  "area": "Alien Lab",
+  "world": "Tech",
+  "dropChance": 0.00055,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Lab/209_Dominus Alienus.png",
+  "goldenThumbnail": "Images/Tech/Alien Lab/209_Dominus Alienus_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Lab/209_Dominus Alienus_DarkMatter.png",
+  "strengthMin": 2327500000,
+  "strengthMax": 2560250000,
+  "rainbowThumbnail": "Images/Tech/Alien Lab/209_Dominus Alienus_Rainbow.png"
+}

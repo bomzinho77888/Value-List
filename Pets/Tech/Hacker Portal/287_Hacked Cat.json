@@ -1,0 +1,18 @@
+{
+  "id": "287",
+  "name": "Hacked Cat",
+  "rarity": "Epic",
+  "egg": "Hacker Egg",
+  "area": "Hacker Portal",
+  "world": "Tech",
+  "dropChance": 5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Hacker Portal/287_Hacked Cat.png",
+  "goldenThumbnail": "Images/Tech/Hacker Portal/287_Hacked Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Hacker Portal/287_Hacked Cat_DarkMatter.png",
+  "strengthMin": 21892500000,
+  "strengthMax": 23892500000,
+  "rainbowThumbnail": "Images/Tech/Hacker Portal/287_Hacked Cat_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "182",
+  "name": "M-6 PROTOTYPE",
+  "rarity": "Mythical",
+  "egg": "Golden Dark Tech Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 0.00045,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/182_M-6 PROTOTYPE.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/182_M-6 PROTOTYPE_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/182_M-6 PROTOTYPE_DarkMatter.png",
+  "strengthMin": 185000000,
+  "strengthMax": 187000000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/182_M-6 PROTOTYPE_Rainbow.png"
+}

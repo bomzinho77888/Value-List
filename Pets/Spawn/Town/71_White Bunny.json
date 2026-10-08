@@ -1,0 +1,18 @@
+{
+  "id": "71",
+  "name": "White Bunny",
+  "rarity": "Basic",
+  "egg": "Cracked Egg",
+  "area": "Town",
+  "world": "Spawn",
+  "dropChance": 50,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Town/71_White Bunny.png",
+  "goldenThumbnail": "Images/Spawn/Town/71_White Bunny_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Town/71_White Bunny_DarkMatter.png",
+  "strengthMin": 4,
+  "strengthMax": 4,
+  "rainbowThumbnail": "Images/Spawn/Town/71_White Bunny_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "306",
+  "name": "Astral Axolotl",
+  "rarity": "Legendary",
+  "egg": "Golden Shiny Axolotl Egg",
+  "area": "Axolotl Deep Ocean",
+  "world": "Axolotl Ocean",
+  "dropChance": 0.011,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/306_Astral Axolotl.png",
+  "goldenThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/306_Astral Axolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/306_Astral Axolotl_DarkMatter.png",
+  "strengthMin": 832500000000,
+  "strengthMax": 852500000000,
+  "rainbowThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/306_Astral Axolotl_Rainbow.png"
+}

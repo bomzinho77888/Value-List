@@ -1,0 +1,18 @@
+{
+  "id": "194",
+  "name": "Mechanical Spider",
+  "rarity": "Legendary",
+  "egg": "Mechanical Egg",
+  "area": "Steampunk",
+  "world": "Tech",
+  "dropChance": 0.0125,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Steampunk/194_Mechanical Spider.png",
+  "goldenThumbnail": "Images/Tech/Steampunk/194_Mechanical Spider_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Steampunk/194_Mechanical Spider_DarkMatter.png",
+  "strengthMin": 142500000,
+  "strengthMax": 147500000,
+  "rainbowThumbnail": "Images/Tech/Steampunk/194_Mechanical Spider_Rainbow.png"
+}

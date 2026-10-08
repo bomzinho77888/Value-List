@@ -1,0 +1,18 @@
+{
+  "id": "132",
+  "name": "Sock Monkey",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/132_Sock Monkey.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/132_Sock Monkey_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Exclusive Pets/132_Sock Monkey_DarkMatter.png",
+  "strengthMin": 18000,
+  "strengthMax": 18000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/132_Sock Monkey_Rainbow.png"
+}

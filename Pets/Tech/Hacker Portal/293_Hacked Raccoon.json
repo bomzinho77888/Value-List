@@ -1,0 +1,18 @@
+{
+  "id": "293",
+  "name": "Hacked Raccoon",
+  "rarity": "Rare",
+  "egg": "Hacker Egg",
+  "area": "Hacker Portal",
+  "world": "Tech",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Hacker Portal/293_Hacked Raccoon.png",
+  "goldenThumbnail": "Images/Tech/Hacker Portal/293_Hacked Raccoon_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Hacker Portal/293_Hacked Raccoon_DarkMatter.png",
+  "strengthMin": 10946250000,
+  "strengthMax": 11346250000,
+  "rainbowThumbnail": "Images/Tech/Hacker Portal/293_Hacked Raccoon_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "61",
+  "name": "Reaper",
+  "rarity": "Basic",
+  "egg": "Haunted Egg",
+  "area": "Haunted Island",
+  "world": "Fantasy",
+  "dropChance": 40,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Haunted Island/61_Reaper.png",
+  "goldenThumbnail": "Images/Fantasy/Haunted Island/61_Reaper_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Haunted Island/61_Reaper_DarkMatter.png",
+  "strengthMin": 130000,
+  "strengthMax": 135000,
+  "rainbowThumbnail": "Images/Fantasy/Haunted Island/61_Reaper_Rainbow.png"
+}

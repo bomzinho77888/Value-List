@@ -1,0 +1,18 @@
+{
+  "id": "174",
+  "name": "Cyber Raccoon",
+  "rarity": "Rare",
+  "egg": "Titanium Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 2,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/174_Cyber Raccoon.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/174_Cyber Raccoon_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/174_Cyber Raccoon_DarkMatter.png",
+  "strengthMin": 6500000,
+  "strengthMax": 6750000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/174_Cyber Raccoon_Rainbow.png"
+}

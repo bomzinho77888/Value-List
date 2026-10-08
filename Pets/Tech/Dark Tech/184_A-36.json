@@ -1,0 +1,18 @@
+{
+  "id": "184",
+  "name": "A-36",
+  "rarity": "Mythical",
+  "egg": "Titanium Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 0.000325,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/184_A-36.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/184_A-36_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/184_A-36_DarkMatter.png",
+  "strengthMin": 26000000,
+  "strengthMax": 27000000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/184_A-36_Rainbow.png"
+}

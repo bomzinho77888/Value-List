@@ -1,0 +1,18 @@
+{
+  "id": "91",
+  "name": "Angel Cat",
+  "rarity": "Basic",
+  "egg": "Golden Heaven Egg",
+  "area": "Heaven Island",
+  "world": "Fantasy",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heaven Island/91_Angel Cat.png",
+  "goldenThumbnail": "Images/Fantasy/Heaven Island/91_Angel Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heaven Island/91_Angel Cat_DarkMatter.png",
+  "strengthMin": 475000,
+  "strengthMax": 500000,
+  "rainbowThumbnail": "Images/Fantasy/Heaven Island/91_Angel Cat_Rainbow.png"
+}

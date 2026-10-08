@@ -1,0 +1,18 @@
+{
+  "id": "65",
+  "name": "Panther",
+  "rarity": "Basic",
+  "egg": "Cactus Egg",
+  "area": "Desert",
+  "world": "Spawn",
+  "dropChance": 65,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Desert/65_Panther.png",
+  "goldenThumbnail": "Images/Spawn/Desert/65_Panther_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Desert/65_Panther_DarkMatter.png",
+  "strengthMin": 910,
+  "strengthMax": 915,
+  "rainbowThumbnail": "Images/Spawn/Desert/65_Panther_Rainbow.png"
+}

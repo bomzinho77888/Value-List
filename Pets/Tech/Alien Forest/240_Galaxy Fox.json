@@ -1,0 +1,18 @@
+{
+  "id": "240",
+  "name": "Galaxy Fox",
+  "rarity": "Mythical",
+  "egg": "Planet Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 0.00055,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/240_Galaxy Fox.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/240_Galaxy Fox_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/240_Galaxy Fox_DarkMatter.png",
+  "strengthMin": 14255937500,
+  "strengthMax": 15681531250,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/240_Galaxy Fox_Rainbow.png"
+}

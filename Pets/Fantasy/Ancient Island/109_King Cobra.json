@@ -1,0 +1,18 @@
+{
+  "id": "109",
+  "name": "King Cobra",
+  "rarity": "Epic",
+  "egg": "Relic Egg",
+  "area": "Ancient Island",
+  "world": "Fantasy",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Ancient Island/109_King Cobra.png",
+  "goldenThumbnail": "Images/Fantasy/Ancient Island/109_King Cobra_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Ancient Island/109_King Cobra_DarkMatter.png",
+  "strengthMin": 64500,
+  "strengthMax": 65000,
+  "rainbowThumbnail": "Images/Fantasy/Ancient Island/109_King Cobra_Rainbow.png"
+}

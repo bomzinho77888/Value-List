@@ -1,0 +1,18 @@
+{
+  "id": "133",
+  "name": "Blobfish",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/133_Blobfish.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/133_Blobfish_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Exclusive Pets/133_Blobfish_DarkMatter.png",
+  "strengthMin": 18500,
+  "strengthMax": 18500,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/133_Blobfish_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "145",
+  "name": "Hell Chick",
+  "rarity": "Basic",
+  "egg": "Hell Egg",
+  "area": "Hell Island",
+  "world": "Fantasy",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Hell Island/145_Hell Chick.png",
+  "goldenThumbnail": "Images/Fantasy/Hell Island/145_Hell Chick_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Hell Island/145_Hell Chick_DarkMatter.png",
+  "strengthMin": 230000,
+  "strengthMax": 235000,
+  "rainbowThumbnail": "Images/Fantasy/Hell Island/145_Hell Chick_Rainbow.png"
+}

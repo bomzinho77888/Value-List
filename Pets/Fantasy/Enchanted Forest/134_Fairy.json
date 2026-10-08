@@ -1,0 +1,18 @@
+{
+  "id": "134",
+  "name": "Fairy",
+  "rarity": "Epic",
+  "egg": "Golden Enchanted Egg",
+  "area": "Enchanted Forest",
+  "world": "Fantasy",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Enchanted Forest/134_Fairy.png",
+  "goldenThumbnail": "Images/Fantasy/Enchanted Forest/134_Fairy_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Enchanted Forest/134_Fairy_DarkMatter.png",
+  "strengthMin": 39000,
+  "strengthMax": 40000,
+  "rainbowThumbnail": "Images/Fantasy/Enchanted Forest/134_Fairy_Rainbow.png"
+}

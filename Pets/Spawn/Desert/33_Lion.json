@@ -1,0 +1,18 @@
+{
+  "id": "33",
+  "name": "Lion",
+  "rarity": "Rare",
+  "egg": "Cactus Egg",
+  "area": "Desert",
+  "world": "Spawn",
+  "dropChance": 10,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Desert/33_Lion.png",
+  "goldenThumbnail": "Images/Spawn/Desert/33_Lion_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Desert/33_Lion_DarkMatter.png",
+  "strengthMin": 1500,
+  "strengthMax": 1525,
+  "rainbowThumbnail": "Images/Spawn/Desert/33_Lion_Rainbow.png"
+}

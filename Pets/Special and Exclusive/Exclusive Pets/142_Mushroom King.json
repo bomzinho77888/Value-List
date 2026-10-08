@@ -1,0 +1,18 @@
+{
+  "id": "142",
+  "name": "Mushroom King",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/142_Mushroom King.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/142_Mushroom King_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Exclusive Pets/142_Mushroom King_DarkMatter.png",
+  "strengthMin": 30000,
+  "strengthMax": 50000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/142_Mushroom King_Rainbow.png"
+}

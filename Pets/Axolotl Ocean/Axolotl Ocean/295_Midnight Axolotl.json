@@ -1,0 +1,18 @@
+{
+  "id": "295",
+  "name": "Midnight Axolotl",
+  "rarity": "Epic",
+  "egg": "Axolotl Egg",
+  "area": "Axolotl Ocean",
+  "world": "Axolotl Ocean",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Axolotl Ocean/Axolotl Ocean/295_Midnight Axolotl.png",
+  "goldenThumbnail": "Images/Axolotl Ocean/Axolotl Ocean/295_Midnight Axolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Axolotl Ocean/Axolotl Ocean/295_Midnight Axolotl_DarkMatter.png",
+  "strengthMin": 175125000000,
+  "strengthMax": 195125000000,
+  "rainbowThumbnail": "Images/Axolotl Ocean/Axolotl Ocean/295_Midnight Axolotl_Rainbow.png"
+}

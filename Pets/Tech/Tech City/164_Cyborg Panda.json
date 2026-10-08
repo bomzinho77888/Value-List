@@ -1,0 +1,18 @@
+{
+  "id": "164",
+  "name": "Cyborg Panda",
+  "rarity": "Basic",
+  "egg": "Tech Egg",
+  "area": "Tech City",
+  "world": "Tech",
+  "dropChance": 50,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Tech City/164_Cyborg Panda.png",
+  "goldenThumbnail": "Images/Tech/Tech City/164_Cyborg Panda_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Tech City/164_Cyborg Panda_DarkMatter.png",
+  "strengthMin": 1750000,
+  "strengthMax": 1850000,
+  "rainbowThumbnail": "Images/Tech/Tech City/164_Cyborg Panda_Rainbow.png"
+}

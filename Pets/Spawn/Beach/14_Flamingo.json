@@ -1,0 +1,18 @@
+{
+  "id": "14",
+  "name": "Flamingo",
+  "rarity": "Basic",
+  "egg": "Golden Coconut Egg",
+  "area": "Beach",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Beach/14_Flamingo.png",
+  "goldenThumbnail": "Images/Spawn/Beach/14_Flamingo_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Beach/14_Flamingo_DarkMatter.png",
+  "strengthMin": 62,
+  "strengthMax": 64,
+  "rainbowThumbnail": "Images/Spawn/Beach/14_Flamingo_Rainbow.png"
+}

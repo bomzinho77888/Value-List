@@ -1,0 +1,18 @@
+{
+  "id": "188",
+  "name": "Ducky Magician",
+  "rarity": "Basic",
+  "egg": "Mechanical Egg",
+  "area": "Steampunk",
+  "world": "Tech",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Steampunk/188_Ducky Magician.png",
+  "goldenThumbnail": "Images/Tech/Steampunk/188_Ducky Magician_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Steampunk/188_Ducky Magician_DarkMatter.png",
+  "strengthMin": 20000000,
+  "strengthMax": 21000000,
+  "rainbowThumbnail": "Images/Tech/Steampunk/188_Ducky Magician_Rainbow.png"
+}

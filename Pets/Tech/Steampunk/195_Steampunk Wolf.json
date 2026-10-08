@@ -1,0 +1,18 @@
+{
+  "id": "195",
+  "name": "Steampunk Wolf",
+  "rarity": "Epic",
+  "egg": "Golden Steampunk Egg",
+  "area": "Steampunk",
+  "world": "Tech",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Steampunk/195_Steampunk Wolf.png",
+  "goldenThumbnail": "Images/Tech/Steampunk/195_Steampunk Wolf_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Steampunk/195_Steampunk Wolf_DarkMatter.png",
+  "strengthMin": 45500000,
+  "strengthMax": 46500000,
+  "rainbowThumbnail": "Images/Tech/Steampunk/195_Steampunk Wolf_Rainbow.png"
+}

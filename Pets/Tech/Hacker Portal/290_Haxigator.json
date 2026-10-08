@@ -1,0 +1,18 @@
+{
+  "id": "290",
+  "name": "Haxigator",
+  "rarity": "Epic",
+  "egg": "Hacker Egg",
+  "area": "Hacker Portal",
+  "world": "Tech",
+  "dropChance": 4,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Hacker Portal/290_Haxigator.png",
+  "goldenThumbnail": "Images/Tech/Hacker Portal/290_Haxigator_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Hacker Portal/290_Haxigator_DarkMatter.png",
+  "strengthMin": 27892500000,
+  "strengthMax": 29892500000,
+  "rainbowThumbnail": "Images/Tech/Hacker Portal/290_Haxigator_Rainbow.png"
+}

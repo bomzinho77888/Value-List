@@ -1,0 +1,18 @@
+{
+  "id": "229",
+  "name": "Meebo in a Spaceship",
+  "rarity": "Legendary",
+  "egg": "Golden Alien Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 0.0135,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/229_Meebo in a Spaceship.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/229_Meebo in a Spaceship_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/229_Meebo in a Spaceship_DarkMatter.png",
+  "strengthMin": 1163750000,
+  "strengthMax": 1280125000,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/229_Meebo in a Spaceship_Rainbow.png"
+}

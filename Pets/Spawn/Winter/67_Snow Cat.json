@@ -1,0 +1,18 @@
+{
+  "id": "67",
+  "name": "Snow Cat",
+  "rarity": "Basic",
+  "egg": "Snow Egg",
+  "area": "Winter",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Winter/67_Snow Cat.png",
+  "goldenThumbnail": "Images/Spawn/Winter/67_Snow Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Winter/67_Snow Cat_DarkMatter.png",
+  "strengthMin": 195,
+  "strengthMax": 200,
+  "rainbowThumbnail": "Images/Spawn/Winter/67_Snow Cat_Rainbow.png"
+}

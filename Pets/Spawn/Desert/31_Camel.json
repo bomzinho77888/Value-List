@@ -1,0 +1,18 @@
+{
+  "id": "31",
+  "name": "Camel",
+  "rarity": "Basic",
+  "egg": "Spiked Egg",
+  "area": "Desert",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Desert/31_Camel.png",
+  "goldenThumbnail": "Images/Spawn/Desert/31_Camel_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Desert/31_Camel_DarkMatter.png",
+  "strengthMin": 1320,
+  "strengthMax": 1330,
+  "rainbowThumbnail": "Images/Spawn/Desert/31_Camel_Rainbow.png"
+}

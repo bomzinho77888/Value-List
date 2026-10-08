@@ -1,0 +1,18 @@
+{
+  "id": "201",
+  "name": "Reversed Cat",
+  "rarity": "Basic",
+  "egg": "Golden Lab Egg",
+  "area": "Alien Lab",
+  "world": "Tech",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Lab/201_Reversed Cat.png",
+  "goldenThumbnail": "Images/Tech/Alien Lab/201_Reversed Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Lab/201_Reversed Cat_DarkMatter.png",
+  "strengthMin": 47500000,
+  "strengthMax": 50000000,
+  "rainbowThumbnail": "Images/Tech/Alien Lab/201_Reversed Cat_Rainbow.png"
+}

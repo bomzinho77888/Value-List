@@ -1,0 +1,18 @@
+{
+  "id": "34",
+  "name": "Slime",
+  "rarity": "Rare",
+  "egg": "Spiked Egg",
+  "area": "Desert",
+  "world": "Spawn",
+  "dropChance": 10,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Desert/34_Slime.png",
+  "goldenThumbnail": "Images/Spawn/Desert/34_Slime_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Desert/34_Slime_DarkMatter.png",
+  "strengthMin": 2250,
+  "strengthMax": 2300,
+  "rainbowThumbnail": "Images/Spawn/Desert/34_Slime_Rainbow.png"
+}

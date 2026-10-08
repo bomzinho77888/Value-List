@@ -1,0 +1,18 @@
+{
+  "id": "85",
+  "name": "Armadillo",
+  "rarity": "Basic",
+  "egg": "Spiked Egg",
+  "area": "Desert",
+  "world": "Spawn",
+  "dropChance": 40,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Desert/85_Armadillo.png",
+  "goldenThumbnail": "Images/Spawn/Desert/85_Armadillo_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Desert/85_Armadillo_DarkMatter.png",
+  "strengthMin": 1420,
+  "strengthMax": 1430,
+  "rainbowThumbnail": "Images/Spawn/Desert/85_Armadillo_Rainbow.png"
+}

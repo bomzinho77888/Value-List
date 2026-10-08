@@ -1,0 +1,18 @@
+{
+  "id": "94",
+  "name": "Cyclops",
+  "rarity": "Basic",
+  "egg": "Golden Enchanted Egg",
+  "area": "Enchanted Forest",
+  "world": "Fantasy",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Enchanted Forest/94_Cyclops.png",
+  "goldenThumbnail": "Images/Fantasy/Enchanted Forest/94_Cyclops_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Enchanted Forest/94_Cyclops_DarkMatter.png",
+  "strengthMin": 12000,
+  "strengthMax": 12100,
+  "rainbowThumbnail": "Images/Fantasy/Enchanted Forest/94_Cyclops_Rainbow.png"
+}

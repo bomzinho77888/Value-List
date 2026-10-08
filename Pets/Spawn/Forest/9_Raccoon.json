@@ -1,0 +1,18 @@
+{
+  "id": "9",
+  "name": "Raccoon",
+  "rarity": "Basic",
+  "egg": "Golden Grass Egg",
+  "area": "Forest",
+  "world": "Spawn",
+  "dropChance": 70,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Forest/9_Raccoon.png",
+  "goldenThumbnail": "Images/Spawn/Forest/9_Raccoon_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Forest/9_Raccoon_DarkMatter.png",
+  "strengthMin": 25,
+  "strengthMax": 26,
+  "rainbowThumbnail": "Images/Spawn/Forest/9_Raccoon_Rainbow.png"
+}

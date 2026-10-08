@@ -1,0 +1,18 @@
+{
+  "id": "62",
+  "name": "Skele",
+  "rarity": "Basic",
+  "egg": "Haunted Egg",
+  "area": "Haunted Island",
+  "world": "Fantasy",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Haunted Island/62_Skele.png",
+  "goldenThumbnail": "Images/Fantasy/Haunted Island/62_Skele_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Haunted Island/62_Skele_DarkMatter.png",
+  "strengthMin": 110000,
+  "strengthMax": 115000,
+  "rainbowThumbnail": "Images/Fantasy/Haunted Island/62_Skele_Rainbow.png"
+}

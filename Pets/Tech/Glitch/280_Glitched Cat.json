@@ -1,0 +1,18 @@
+{
+  "id": "280",
+  "name": "Glitched Cat",
+  "rarity": "Basic",
+  "egg": "Golden Glitch Egg",
+  "area": "Glitch",
+  "world": "Tech",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Glitch/280_Glitched Cat.png",
+  "goldenThumbnail": "Images/Tech/Glitch/280_Glitched Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Glitch/280_Glitched Cat_DarkMatter.png",
+  "strengthMin": 1118281250,
+  "strengthMax": 1218281250,
+  "rainbowThumbnail": "Images/Tech/Glitch/280_Glitched Cat_Rainbow.png"
+}

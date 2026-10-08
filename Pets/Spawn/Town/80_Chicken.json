@@ -1,0 +1,18 @@
+{
+  "id": "80",
+  "name": "Chicken",
+  "rarity": "Basic",
+  "egg": "Spotted Egg",
+  "area": "Town",
+  "world": "Spawn",
+  "dropChance": 40,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Town/80_Chicken.png",
+  "goldenThumbnail": "Images/Spawn/Town/80_Chicken_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Town/80_Chicken_DarkMatter.png",
+  "strengthMin": 8,
+  "strengthMax": 8,
+  "rainbowThumbnail": "Images/Spawn/Town/80_Chicken_Rainbow.png"
+}

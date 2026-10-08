@@ -1,0 +1,18 @@
+{
+  "id": "18",
+  "name": "Tiger",
+  "rarity": "Rare",
+  "egg": "Golden Grass Egg",
+  "area": "Forest",
+  "world": "Spawn",
+  "dropChance": 4.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Forest/18_Tiger.png",
+  "goldenThumbnail": "Images/Spawn/Forest/18_Tiger_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Forest/18_Tiger_DarkMatter.png",
+  "strengthMin": 45,
+  "strengthMax": 47,
+  "rainbowThumbnail": "Images/Spawn/Forest/18_Tiger_Rainbow.png"
+}

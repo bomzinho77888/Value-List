@@ -1,0 +1,18 @@
+{
+  "id": "266",
+  "name": "Huge Festive Cat",
+  "rarity": "Exclusive",
+  "egg": "Limited Christmas Egg",
+  "area": "Special Eggs",
+  "world": "Special and Exclusive",
+  "dropChance": 5,
+  "tradeable": true,
+  "fly": false,
+  "huge": true,
+  "thumbnail": "Images/Special and Exclusive/Special Eggs/266_Huge Festive Cat.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Special Eggs/266_Huge Festive Cat_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 0,
+  "strengthMax": 0,
+  "rainbowThumbnail": "Images/Special and Exclusive/Special Eggs/266_Huge Festive Cat_Rainbow.png"
+}

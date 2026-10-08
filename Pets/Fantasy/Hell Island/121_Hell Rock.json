@@ -1,0 +1,18 @@
+{
+  "id": "121",
+  "name": "Hell Rock",
+  "rarity": "Basic",
+  "egg": "Hell Egg",
+  "area": "Hell Island",
+  "world": "Fantasy",
+  "dropChance": 50,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Hell Island/121_Hell Rock.png",
+  "goldenThumbnail": "Images/Fantasy/Hell Island/121_Hell Rock_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Hell Island/121_Hell Rock_DarkMatter.png",
+  "strengthMin": 280000,
+  "strengthMax": 295000,
+  "rainbowThumbnail": "Images/Fantasy/Hell Island/121_Hell Rock_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "55",
+  "name": "Happy Rock",
+  "rarity": "Rare",
+  "egg": "Golden Rock Egg",
+  "area": "Mine",
+  "world": "Spawn",
+  "dropChance": 15,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Mine/55_Happy Rock.png",
+  "goldenThumbnail": "Images/Spawn/Mine/55_Happy Rock_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Mine/55_Happy Rock_DarkMatter.png",
+  "strengthMin": 135,
+  "strengthMax": 140,
+  "rainbowThumbnail": "Images/Spawn/Mine/55_Happy Rock_Rainbow.png"
+}

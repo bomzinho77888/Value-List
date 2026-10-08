@@ -1,0 +1,18 @@
+{
+  "id": "161",
+  "name": "Cyborg Cat",
+  "rarity": "Basic",
+  "egg": "Golden Metal Egg",
+  "area": "Tech City",
+  "world": "Tech",
+  "dropChance": 50,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Tech City/161_Cyborg Cat.png",
+  "goldenThumbnail": "Images/Tech/Tech City/161_Cyborg Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Tech City/161_Cyborg Cat_DarkMatter.png",
+  "strengthMin": 1000000,
+  "strengthMax": 1100000,
+  "rainbowThumbnail": "Images/Tech/Tech City/161_Cyborg Cat_Rainbow.png"
+}

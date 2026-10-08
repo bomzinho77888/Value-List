@@ -1,0 +1,18 @@
+{
+  "id": "172",
+  "name": "Cyber Fox",
+  "rarity": "Basic",
+  "egg": "Golden Dark Tech Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 60,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/172_Cyber Fox.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/172_Cyber Fox_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/172_Cyber Fox_DarkMatter.png",
+  "strengthMin": 6400000,
+  "strengthMax": 6500000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/172_Cyber Fox_Rainbow.png"
+}

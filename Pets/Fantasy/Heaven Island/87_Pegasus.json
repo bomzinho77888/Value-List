@@ -1,0 +1,18 @@
+{
+  "id": "87",
+  "name": "Pegasus",
+  "rarity": "Legendary",
+  "egg": "Golden Heaven Egg",
+  "area": "Heaven Island",
+  "world": "Fantasy",
+  "dropChance": 0.1,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heaven Island/87_Pegasus.png",
+  "goldenThumbnail": "Images/Fantasy/Heaven Island/87_Pegasus_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heaven Island/87_Pegasus_DarkMatter.png",
+  "strengthMin": 2350000,
+  "strengthMax": 2500000,
+  "rainbowThumbnail": "Images/Fantasy/Heaven Island/87_Pegasus_Rainbow.png"
+}

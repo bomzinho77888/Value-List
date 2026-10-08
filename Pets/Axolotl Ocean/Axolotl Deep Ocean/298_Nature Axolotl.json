@@ -1,0 +1,18 @@
+{
+  "id": "298",
+  "name": "Nature Axolotl",
+  "rarity": "Basic",
+  "egg": "Golden Shiny Axolotl Egg",
+  "area": "Axolotl Deep Ocean",
+  "world": "Axolotl Ocean",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/298_Nature Axolotl.png",
+  "goldenThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/298_Nature Axolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/298_Nature Axolotl_DarkMatter.png",
+  "strengthMin": 87500000000,
+  "strengthMax": 90000000000,
+  "rainbowThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/298_Nature Axolotl_Rainbow.png"
+}

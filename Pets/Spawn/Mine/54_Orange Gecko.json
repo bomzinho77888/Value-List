@@ -1,0 +1,18 @@
+{
+  "id": "54",
+  "name": "Orange Gecko",
+  "rarity": "Basic",
+  "egg": "Golden Geode Egg",
+  "area": "Mine",
+  "world": "Spawn",
+  "dropChance": 50,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Mine/54_Orange Gecko.png",
+  "goldenThumbnail": "Images/Spawn/Mine/54_Orange Gecko_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Mine/54_Orange Gecko_DarkMatter.png",
+  "strengthMin": 145,
+  "strengthMax": 150,
+  "rainbowThumbnail": "Images/Spawn/Mine/54_Orange Gecko_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "154",
+  "name": "Angelus",
+  "rarity": "Mythical",
+  "egg": "Empyrean Egg",
+  "area": "Heavens Gate",
+  "world": "Fantasy",
+  "dropChance": 0.000125,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heavens Gate/154_Angelus.png",
+  "goldenThumbnail": "Images/Fantasy/Heavens Gate/154_Angelus_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heavens Gate/154_Angelus_DarkMatter.png",
+  "strengthMin": 18000000,
+  "strengthMax": 19000000,
+  "rainbowThumbnail": "Images/Fantasy/Heavens Gate/154_Angelus_Rainbow.png"
+}

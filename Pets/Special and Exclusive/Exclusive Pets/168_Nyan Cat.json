@@ -1,0 +1,18 @@
+{
+  "id": "168",
+  "name": "Nyan Cat",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/168_Nyan Cat.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/168_Nyan Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Exclusive Pets/168_Nyan Cat_DarkMatter.png",
+  "strengthMin": 40000000,
+  "strengthMax": 43000000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/168_Nyan Cat_Rainbow.png"
+}

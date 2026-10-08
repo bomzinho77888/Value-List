@@ -1,0 +1,18 @@
+{
+  "id": "141",
+  "name": "Phantom Wolf",
+  "rarity": "Mythical",
+  "egg": "Haunted Egg",
+  "area": "Haunted Island",
+  "world": "Fantasy",
+  "dropChance": 0.00065,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Haunted Island/141_Phantom Wolf.png",
+  "goldenThumbnail": "Images/Fantasy/Haunted Island/141_Phantom Wolf_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Haunted Island/141_Phantom Wolf_DarkMatter.png",
+  "strengthMin": 2500000,
+  "strengthMax": 2600000,
+  "rainbowThumbnail": "Images/Fantasy/Haunted Island/141_Phantom Wolf_Rainbow.png"
+}

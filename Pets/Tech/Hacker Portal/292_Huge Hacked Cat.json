@@ -1,0 +1,18 @@
+{
+  "id": "292",
+  "name": "Huge Hacked Cat",
+  "rarity": "Exclusive",
+  "egg": "Hacker Egg",
+  "area": "Hacker Portal",
+  "world": "Tech",
+  "dropChance": 8e-05,
+  "tradeable": true,
+  "fly": false,
+  "huge": true,
+  "thumbnail": "Images/Tech/Hacker Portal/292_Huge Hacked Cat.png",
+  "goldenThumbnail": "Images/Tech/Hacker Portal/292_Huge Hacked Cat_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 0,
+  "strengthMax": 0,
+  "rainbowThumbnail": "Images/Tech/Hacker Portal/292_Huge Hacked Cat_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "12",
+  "name": "Ducky",
+  "rarity": "Basic",
+  "egg": "Golden Coconut Egg",
+  "area": "Beach",
+  "world": "Spawn",
+  "dropChance": 40,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Beach/12_Ducky.png",
+  "goldenThumbnail": "Images/Spawn/Beach/12_Ducky_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Beach/12_Ducky_DarkMatter.png",
+  "strengthMin": 67,
+  "strengthMax": 69,
+  "rainbowThumbnail": "Images/Spawn/Beach/12_Ducky_Rainbow.png"
+}

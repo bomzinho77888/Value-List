@@ -1,0 +1,18 @@
+{
+  "id": "206",
+  "name": "Blurred Axolotl",
+  "rarity": "Rare",
+  "egg": "Chemical Egg",
+  "area": "Alien Lab",
+  "world": "Tech",
+  "dropChance": 5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Lab/206_Blurred Axolotl.png",
+  "goldenThumbnail": "Images/Tech/Alien Lab/206_Blurred Axolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Lab/206_Blurred Axolotl_DarkMatter.png",
+  "strengthMin": 145468750,
+  "strengthMax": 160015625,
+  "rainbowThumbnail": "Images/Tech/Alien Lab/206_Blurred Axolotl_Rainbow.png"
+}

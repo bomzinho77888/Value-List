@@ -1,0 +1,18 @@
+{
+  "id": "24",
+  "name": "Seal",
+  "rarity": "Basic",
+  "egg": "Ice Egg",
+  "area": "Winter",
+  "world": "Spawn",
+  "dropChance": 40,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Winter/24_Seal.png",
+  "goldenThumbnail": "Images/Spawn/Winter/24_Seal_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Winter/24_Seal_DarkMatter.png",
+  "strengthMin": 293,
+  "strengthMax": 297,
+  "rainbowThumbnail": "Images/Spawn/Winter/24_Seal_Rainbow.png"
+}

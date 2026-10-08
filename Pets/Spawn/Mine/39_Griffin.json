@@ -1,0 +1,18 @@
+{
+  "id": "39",
+  "name": "Griffin",
+  "rarity": "Epic",
+  "egg": "Golden Rock Egg",
+  "area": "Mine",
+  "world": "Spawn",
+  "dropChance": 3.5,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Mine/39_Griffin.png",
+  "goldenThumbnail": "Images/Spawn/Mine/39_Griffin_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Mine/39_Griffin_DarkMatter.png",
+  "strengthMin": 200,
+  "strengthMax": 205,
+  "rainbowThumbnail": "Images/Spawn/Mine/39_Griffin_Rainbow.png"
+}

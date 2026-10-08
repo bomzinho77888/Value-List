@@ -1,0 +1,18 @@
+{
+  "id": "204",
+  "name": "Stacked Dominus",
+  "rarity": "Legendary",
+  "egg": "Golden Lab Egg",
+  "area": "Alien Lab",
+  "world": "Tech",
+  "dropChance": 0.0135,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Lab/204_Stacked Dominus.png",
+  "goldenThumbnail": "Images/Tech/Alien Lab/204_Stacked Dominus_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Lab/204_Stacked Dominus_DarkMatter.png",
+  "strengthMin": 320000000,
+  "strengthMax": 340000000,
+  "rainbowThumbnail": "Images/Tech/Alien Lab/204_Stacked Dominus_Rainbow.png"
+}

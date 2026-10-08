@@ -1,0 +1,18 @@
+{
+  "id": "75",
+  "name": "Hell Fox",
+  "rarity": "Basic",
+  "egg": "Magma Egg",
+  "area": "Volcano",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Volcano/75_Hell Fox.png",
+  "goldenThumbnail": "Images/Spawn/Volcano/75_Hell Fox_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Volcano/75_Hell Fox_DarkMatter.png",
+  "strengthMin": 3600,
+  "strengthMax": 3620,
+  "rainbowThumbnail": "Images/Spawn/Volcano/75_Hell Fox_Rainbow.png"
+}

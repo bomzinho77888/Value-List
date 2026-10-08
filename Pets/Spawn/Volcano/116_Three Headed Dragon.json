@@ -1,0 +1,18 @@
+{
+  "id": "116",
+  "name": "Three Headed Dragon",
+  "rarity": "Legendary",
+  "egg": "Magma Egg",
+  "area": "Volcano",
+  "world": "Spawn",
+  "dropChance": 0.045,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Volcano/116_Three Headed Dragon.png",
+  "goldenThumbnail": "Images/Spawn/Volcano/116_Three Headed Dragon_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Volcano/116_Three Headed Dragon_DarkMatter.png",
+  "strengthMin": 11800,
+  "strengthMax": 12250,
+  "rainbowThumbnail": "Images/Spawn/Volcano/116_Three Headed Dragon_Rainbow.png"
+}

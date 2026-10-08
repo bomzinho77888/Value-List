@@ -1,0 +1,18 @@
+{
+  "id": "273",
+  "name": "Fairy Queen",
+  "rarity": "Exclusive",
+  "egg": "Exclusive Egg",
+  "area": "Special Eggs",
+  "world": "Special and Exclusive",
+  "dropChance": 13,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Special Eggs/273_Fairy Queen.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Special Eggs/273_Fairy Queen_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 1000000000000,
+  "strengthMax": 1000000000000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Special Eggs/273_Fairy Queen_Rainbow.png"
+}

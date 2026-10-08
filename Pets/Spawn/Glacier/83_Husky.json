@@ -1,0 +1,18 @@
+{
+  "id": "83",
+  "name": "Husky",
+  "rarity": "Rare",
+  "egg": "Golden Icicle Egg",
+  "area": "Glacier",
+  "world": "Spawn",
+  "dropChance": 10,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Glacier/83_Husky.png",
+  "goldenThumbnail": "Images/Spawn/Glacier/83_Husky_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Glacier/83_Husky_DarkMatter.png",
+  "strengthMin": 590,
+  "strengthMax": 610,
+  "rainbowThumbnail": "Images/Spawn/Glacier/83_Husky_Rainbow.png"
+}

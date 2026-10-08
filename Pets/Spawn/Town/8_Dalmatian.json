@@ -1,0 +1,18 @@
+{
+  "id": "8",
+  "name": "Dalmatian",
+  "rarity": "Rare",
+  "egg": "Cracked Egg",
+  "area": "Town",
+  "world": "Spawn",
+  "dropChance": 10,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Town/8_Dalmatian.png",
+  "goldenThumbnail": "Images/Spawn/Town/8_Dalmatian_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Town/8_Dalmatian_DarkMatter.png",
+  "strengthMin": 8,
+  "strengthMax": 9,
+  "rainbowThumbnail": "Images/Spawn/Town/8_Dalmatian_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "74",
+  "name": "Icemortuus",
+  "rarity": "Epic",
+  "egg": "Golden Icicle Egg",
+  "area": "Glacier",
+  "world": "Spawn",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Glacier/74_Icemortuus.png",
+  "goldenThumbnail": "Images/Spawn/Glacier/74_Icemortuus_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Glacier/74_Icemortuus_DarkMatter.png",
+  "strengthMin": 1000,
+  "strengthMax": 1050,
+  "rainbowThumbnail": "Images/Spawn/Glacier/74_Icemortuus_Rainbow.png"
+}

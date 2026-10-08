@@ -1,0 +1,18 @@
+{
+  "id": "103",
+  "name": "Crocodile",
+  "rarity": "Basic",
+  "egg": "Relic Egg",
+  "area": "Ancient Island",
+  "world": "Fantasy",
+  "dropChance": 30,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Ancient Island/103_Crocodile.png",
+  "goldenThumbnail": "Images/Fantasy/Ancient Island/103_Crocodile_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Ancient Island/103_Crocodile_DarkMatter.png",
+  "strengthMin": 25000,
+  "strengthMax": 25200,
+  "rainbowThumbnail": "Images/Fantasy/Ancient Island/103_Crocodile_Rainbow.png"
+}

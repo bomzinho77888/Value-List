@@ -1,0 +1,18 @@
+{
+  "id": "105",
+  "name": "Red Panda",
+  "rarity": "Rare",
+  "egg": "Golden Samurai Egg",
+  "area": "Samurai Island",
+  "world": "Fantasy",
+  "dropChance": 2.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Samurai Island/105_Red Panda.png",
+  "goldenThumbnail": "Images/Fantasy/Samurai Island/105_Red Panda_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Samurai Island/105_Red Panda_DarkMatter.png",
+  "strengthMin": 70000,
+  "strengthMax": 70500,
+  "rainbowThumbnail": "Images/Fantasy/Samurai Island/105_Red Panda_Rainbow.png"
+}

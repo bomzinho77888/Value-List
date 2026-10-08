@@ -1,0 +1,18 @@
+{
+  "id": "191",
+  "name": "Steampunk Octopus",
+  "rarity": "Rare",
+  "egg": "Golden Steampunk Egg",
+  "area": "Steampunk",
+  "world": "Tech",
+  "dropChance": 2.75,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Steampunk/191_Steampunk Octopus.png",
+  "goldenThumbnail": "Images/Tech/Steampunk/191_Steampunk Octopus_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Steampunk/191_Steampunk Octopus_DarkMatter.png",
+  "strengthMin": 23500000,
+  "strengthMax": 24000000,
+  "rainbowThumbnail": "Images/Tech/Steampunk/191_Steampunk Octopus_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "10",
+  "name": "Dragon",
+  "rarity": "Basic",
+  "egg": "Obsidian Egg",
+  "area": "Volcano",
+  "world": "Spawn",
+  "dropChance": 30,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Volcano/10_Dragon.png",
+  "goldenThumbnail": "Images/Spawn/Volcano/10_Dragon_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Volcano/10_Dragon_DarkMatter.png",
+  "strengthMin": 2450,
+  "strengthMax": 2550,
+  "rainbowThumbnail": "Images/Spawn/Volcano/10_Dragon_Rainbow.png"
+}

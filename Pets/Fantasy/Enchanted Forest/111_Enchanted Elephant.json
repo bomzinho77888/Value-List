@@ -1,0 +1,18 @@
+{
+  "id": "111",
+  "name": "Enchanted Elephant",
+  "rarity": "Basic",
+  "egg": "Golden Enchanted Egg",
+  "area": "Enchanted Forest",
+  "world": "Fantasy",
+  "dropChance": 30,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Enchanted Forest/111_Enchanted Elephant.png",
+  "goldenThumbnail": "Images/Fantasy/Enchanted Forest/111_Enchanted Elephant_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Enchanted Forest/111_Enchanted Elephant_DarkMatter.png",
+  "strengthMin": 13500,
+  "strengthMax": 13800,
+  "rainbowThumbnail": "Images/Fantasy/Enchanted Forest/111_Enchanted Elephant_Rainbow.png"
+}

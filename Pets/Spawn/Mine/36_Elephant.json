@@ -1,0 +1,18 @@
+{
+  "id": "36",
+  "name": "Elephant",
+  "rarity": "Basic",
+  "egg": "Golden Rock Egg",
+  "area": "Mine",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Mine/36_Elephant.png",
+  "goldenThumbnail": "Images/Spawn/Mine/36_Elephant_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Mine/36_Elephant_DarkMatter.png",
+  "strengthMin": 95,
+  "strengthMax": 98,
+  "rainbowThumbnail": "Images/Spawn/Mine/36_Elephant_Rainbow.png"
+}

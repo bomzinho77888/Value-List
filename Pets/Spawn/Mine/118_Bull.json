@@ -1,0 +1,18 @@
+{
+  "id": "118",
+  "name": "Bull",
+  "rarity": "Rare",
+  "egg": "Golden Geode Egg",
+  "area": "Mine",
+  "world": "Spawn",
+  "dropChance": 12,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Mine/118_Bull.png",
+  "goldenThumbnail": "Images/Spawn/Mine/118_Bull_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Mine/118_Bull_DarkMatter.png",
+  "strengthMin": 155,
+  "strengthMax": 160,
+  "rainbowThumbnail": "Images/Spawn/Mine/118_Bull_Rainbow.png"
+}

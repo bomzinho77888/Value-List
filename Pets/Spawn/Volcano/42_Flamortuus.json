@@ -1,0 +1,18 @@
+{
+  "id": "42",
+  "name": "Flamortuus",
+  "rarity": "Epic",
+  "egg": "Magma Egg",
+  "area": "Volcano",
+  "world": "Spawn",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Volcano/42_Flamortuus.png",
+  "goldenThumbnail": "Images/Spawn/Volcano/42_Flamortuus_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Volcano/42_Flamortuus_DarkMatter.png",
+  "strengthMin": 7025,
+  "strengthMax": 7150,
+  "rainbowThumbnail": "Images/Spawn/Volcano/42_Flamortuus_Rainbow.png"
+}

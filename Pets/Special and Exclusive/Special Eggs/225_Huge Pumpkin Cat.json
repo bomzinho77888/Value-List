@@ -1,0 +1,18 @@
+{
+  "id": "225",
+  "name": "Huge Pumpkin Cat",
+  "rarity": "Exclusive",
+  "egg": "Cursed Egg",
+  "area": "Special Eggs",
+  "world": "Special and Exclusive",
+  "dropChance": 2e-06,
+  "tradeable": true,
+  "fly": false,
+  "huge": true,
+  "thumbnail": "Images/Special and Exclusive/Special Eggs/225_Huge Pumpkin Cat.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Special Eggs/225_Huge Pumpkin Cat_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 0,
+  "strengthMax": 0,
+  "rainbowThumbnail": "Images/Special and Exclusive/Special Eggs/225_Huge Pumpkin Cat_Rainbow.png"
+}

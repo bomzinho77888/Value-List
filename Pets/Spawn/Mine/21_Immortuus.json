@@ -1,0 +1,18 @@
+{
+  "id": "21",
+  "name": "Immortuus",
+  "rarity": "Epic",
+  "egg": "Golden Geode Egg",
+  "area": "Mine",
+  "world": "Spawn",
+  "dropChance": 0.6,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Mine/21_Immortuus.png",
+  "goldenThumbnail": "Images/Spawn/Mine/21_Immortuus_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Mine/21_Immortuus_DarkMatter.png",
+  "strengthMin": 300,
+  "strengthMax": 315,
+  "rainbowThumbnail": "Images/Spawn/Mine/21_Immortuus_Rainbow.png"
+}

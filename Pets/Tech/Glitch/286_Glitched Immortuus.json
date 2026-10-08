@@ -1,0 +1,18 @@
+{
+  "id": "286",
+  "name": "Glitched Immortuus",
+  "rarity": "Mythical",
+  "egg": "Golden Glitch Egg",
+  "area": "Glitch",
+  "world": "Tech",
+  "dropChance": 0.0006,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Glitch/286_Glitched Immortuus.png",
+  "goldenThumbnail": "Images/Tech/Glitch/286_Glitched Immortuus_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Glitch/286_Glitched Immortuus_DarkMatter.png",
+  "strengthMin": 35711874992,
+  "strengthMax": 37511874992,
+  "rainbowThumbnail": "Images/Tech/Glitch/286_Glitched Immortuus_Rainbow.png"
+}

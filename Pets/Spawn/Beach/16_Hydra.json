@@ -1,0 +1,18 @@
+{
+  "id": "16",
+  "name": "Hydra",
+  "rarity": "Legendary",
+  "egg": "Golden Beachball Egg",
+  "area": "Beach",
+  "world": "Spawn",
+  "dropChance": 0.15,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Beach/16_Hydra.png",
+  "goldenThumbnail": "Images/Spawn/Beach/16_Hydra_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Beach/16_Hydra_DarkMatter.png",
+  "strengthMin": 215,
+  "strengthMax": 228,
+  "rainbowThumbnail": "Images/Spawn/Beach/16_Hydra_Rainbow.png"
+}

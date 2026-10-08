@@ -1,0 +1,18 @@
+{
+  "id": "98",
+  "name": "Electric Slime",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/98_Electric Slime.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/98_Electric Slime_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 1,
+  "strengthMax": 2,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/98_Electric Slime_Rainbow.png"
+}

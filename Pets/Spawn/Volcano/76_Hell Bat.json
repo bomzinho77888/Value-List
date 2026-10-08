@@ -1,0 +1,18 @@
+{
+  "id": "76",
+  "name": "Hell Bat",
+  "rarity": "Basic",
+  "egg": "Magma Egg",
+  "area": "Volcano",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Volcano/76_Hell Bat.png",
+  "goldenThumbnail": "Images/Spawn/Volcano/76_Hell Bat_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Volcano/76_Hell Bat_DarkMatter.png",
+  "strengthMin": 3600,
+  "strengthMax": 3620,
+  "rainbowThumbnail": "Images/Spawn/Volcano/76_Hell Bat_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "30",
+  "name": "Desert Cat",
+  "rarity": "Basic",
+  "egg": "Cactus Egg",
+  "area": "Desert",
+  "world": "Spawn",
+  "dropChance": 200,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Desert/30_Desert Cat.png",
+  "goldenThumbnail": "Images/Spawn/Desert/30_Desert Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Desert/30_Desert Cat_DarkMatter.png",
+  "strengthMin": 860,
+  "strengthMax": 865,
+  "rainbowThumbnail": "Images/Spawn/Desert/30_Desert Cat_Rainbow.png"
+}

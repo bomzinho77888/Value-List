@@ -1,0 +1,18 @@
+{
+  "id": "37",
+  "name": "Lava Slime",
+  "rarity": "Basic",
+  "egg": "Magma Egg",
+  "area": "Volcano",
+  "world": "Spawn",
+  "dropChance": 30,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Volcano/37_Lava Slime.png",
+  "goldenThumbnail": "Images/Spawn/Volcano/37_Lava Slime_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Volcano/37_Lava Slime_DarkMatter.png",
+  "strengthMin": 3750,
+  "strengthMax": 3800,
+  "rainbowThumbnail": "Images/Spawn/Volcano/37_Lava Slime_Rainbow.png"
+}

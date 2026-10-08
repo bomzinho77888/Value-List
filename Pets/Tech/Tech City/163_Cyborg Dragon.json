@@ -1,0 +1,18 @@
+{
+  "id": "163",
+  "name": "Cyborg Dragon",
+  "rarity": "Epic",
+  "egg": "Golden Metal Egg",
+  "area": "Tech City",
+  "world": "Tech",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Tech City/163_Cyborg Dragon.png",
+  "goldenThumbnail": "Images/Tech/Tech City/163_Cyborg Dragon_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Tech City/163_Cyborg Dragon_DarkMatter.png",
+  "strengthMin": 3000000,
+  "strengthMax": 3200000,
+  "rainbowThumbnail": "Images/Tech/Tech City/163_Cyborg Dragon_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "231",
+  "name": "Astronaut Cat",
+  "rarity": "Rare",
+  "egg": "Golden Martian Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 5.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/231_Astronaut Cat.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/231_Astronaut Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/231_Astronaut Cat_DarkMatter.png",
+  "strengthMin": 509140625,
+  "strengthMax": 560054688,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/231_Astronaut Cat_Rainbow.png"
+}

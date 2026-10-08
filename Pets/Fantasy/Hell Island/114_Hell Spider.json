@@ -1,0 +1,18 @@
+{
+  "id": "114",
+  "name": "Hell Spider",
+  "rarity": "Epic",
+  "egg": "Hell Egg",
+  "area": "Hell Island",
+  "world": "Fantasy",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Hell Island/114_Hell Spider.png",
+  "goldenThumbnail": "Images/Fantasy/Hell Island/114_Hell Spider_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Hell Island/114_Hell Spider_DarkMatter.png",
+  "strengthMin": 660000,
+  "strengthMax": 680000,
+  "rainbowThumbnail": "Images/Fantasy/Hell Island/114_Hell Spider_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "45",
+  "name": "Deer",
+  "rarity": "Basic",
+  "egg": "Snow Egg",
+  "area": "Winter",
+  "world": "Spawn",
+  "dropChance": 75,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Winter/45_Deer.png",
+  "goldenThumbnail": "Images/Spawn/Winter/45_Deer_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Winter/45_Deer_DarkMatter.png",
+  "strengthMin": 205,
+  "strengthMax": 208,
+  "rainbowThumbnail": "Images/Spawn/Winter/45_Deer_Rainbow.png"
+}

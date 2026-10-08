@@ -1,0 +1,18 @@
+{
+  "id": "27",
+  "name": "Arctic Fox",
+  "rarity": "Basic",
+  "egg": "Snow Egg",
+  "area": "Winter",
+  "world": "Spawn",
+  "dropChance": 35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Winter/27_Arctic Fox.png",
+  "goldenThumbnail": "Images/Spawn/Winter/27_Arctic Fox_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Winter/27_Arctic Fox_DarkMatter.png",
+  "strengthMin": 215,
+  "strengthMax": 220,
+  "rainbowThumbnail": "Images/Spawn/Winter/27_Arctic Fox_Rainbow.png"
+}

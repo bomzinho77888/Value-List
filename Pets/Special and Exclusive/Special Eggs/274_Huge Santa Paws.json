@@ -1,0 +1,18 @@
+{
+  "id": "274",
+  "name": "Huge Santa Paws",
+  "rarity": "Exclusive",
+  "egg": "Limited Christmas Egg",
+  "area": "Special Eggs",
+  "world": "Special and Exclusive",
+  "dropChance": 0.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": true,
+  "thumbnail": "Images/Special and Exclusive/Special Eggs/274_Huge Santa Paws.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Special Eggs/274_Huge Santa Paws_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 0,
+  "strengthMax": 0,
+  "rainbowThumbnail": "Images/Special and Exclusive/Special Eggs/274_Huge Santa Paws_Rainbow.png"
+}

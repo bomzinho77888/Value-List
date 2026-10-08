@@ -1,0 +1,18 @@
+{
+  "id": "90",
+  "name": "Doge",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/90_Doge.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/90_Doge_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Exclusive Pets/90_Doge_DarkMatter.png",
+  "strengthMin": 800,
+  "strengthMax": 800,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/90_Doge_Rainbow.png"
+}

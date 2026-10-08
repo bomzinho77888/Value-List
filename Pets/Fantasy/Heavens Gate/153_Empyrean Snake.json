@@ -1,0 +1,18 @@
+{
+  "id": "153",
+  "name": "Empyrean Snake",
+  "rarity": "Epic",
+  "egg": "Empyrean Egg",
+  "area": "Heavens Gate",
+  "world": "Fantasy",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heavens Gate/153_Empyrean Snake.png",
+  "goldenThumbnail": "Images/Fantasy/Heavens Gate/153_Empyrean Snake_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heavens Gate/153_Empyrean Snake_DarkMatter.png",
+  "strengthMin": 3300000,
+  "strengthMax": 3400000,
+  "rainbowThumbnail": "Images/Fantasy/Heavens Gate/153_Empyrean Snake_Rainbow.png"
+}

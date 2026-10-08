@@ -1,0 +1,18 @@
+{
+  "id": "166",
+  "name": "Cyborg Mortuus",
+  "rarity": "Epic",
+  "egg": "Tech Egg",
+  "area": "Tech City",
+  "world": "Tech",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Tech City/166_Cyborg Mortuus.png",
+  "goldenThumbnail": "Images/Tech/Tech City/166_Cyborg Mortuus_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Tech City/166_Cyborg Mortuus_DarkMatter.png",
+  "strengthMin": 5500000,
+  "strengthMax": 5650000,
+  "rainbowThumbnail": "Images/Tech/Tech City/166_Cyborg Mortuus_Rainbow.png"
+}

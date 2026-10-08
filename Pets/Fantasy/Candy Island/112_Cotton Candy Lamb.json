@@ -1,0 +1,18 @@
+{
+  "id": "112",
+  "name": "Cotton Candy Lamb",
+  "rarity": "Basic",
+  "egg": "Rainbow Egg",
+  "area": "Candy Island",
+  "world": "Fantasy",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Candy Island/112_Cotton Candy Lamb.png",
+  "goldenThumbnail": "Images/Fantasy/Candy Island/112_Cotton Candy Lamb_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Candy Island/112_Cotton Candy Lamb_DarkMatter.png",
+  "strengthMin": 68000,
+  "strengthMax": 69000,
+  "rainbowThumbnail": "Images/Fantasy/Candy Island/112_Cotton Candy Lamb_Rainbow.png"
+}

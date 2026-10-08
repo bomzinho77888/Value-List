@@ -1,0 +1,18 @@
+{
+  "id": "297",
+  "name": "Lumi Axolotl",
+  "rarity": "Rare",
+  "egg": "Axolotl Egg",
+  "area": "Axolotl Ocean",
+  "world": "Axolotl Ocean",
+  "dropChance": 3.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Axolotl Ocean/Axolotl Ocean/297_Lumi Axolotl.png",
+  "goldenThumbnail": "Images/Axolotl Ocean/Axolotl Ocean/297_Lumi Axolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Axolotl Ocean/Axolotl Ocean/297_Lumi Axolotl_DarkMatter.png",
+  "strengthMin": 87500000000,
+  "strengthMax": 90000000000,
+  "rainbowThumbnail": "Images/Axolotl Ocean/Axolotl Ocean/297_Lumi Axolotl_Rainbow.png"
+}

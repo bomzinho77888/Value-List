@@ -1,0 +1,18 @@
+{
+  "id": "135",
+  "name": "Axolotl",
+  "rarity": "Basic",
+  "egg": "Golden Samurai Egg",
+  "area": "Samurai Island",
+  "world": "Fantasy",
+  "dropChance": 40,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Samurai Island/135_Axolotl.png",
+  "goldenThumbnail": "Images/Fantasy/Samurai Island/135_Axolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Samurai Island/135_Axolotl_DarkMatter.png",
+  "strengthMin": 47000,
+  "strengthMax": 47500,
+  "rainbowThumbnail": "Images/Fantasy/Samurai Island/135_Axolotl_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "88",
+  "name": "Unicorn",
+  "rarity": "Legendary",
+  "egg": "Rainbow Egg",
+  "area": "Candy Island",
+  "world": "Fantasy",
+  "dropChance": 0.0015,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Candy Island/88_Unicorn.png",
+  "goldenThumbnail": "Images/Fantasy/Candy Island/88_Unicorn_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Candy Island/88_Unicorn_DarkMatter.png",
+  "strengthMin": 400000,
+  "strengthMax": 405000,
+  "rainbowThumbnail": "Images/Fantasy/Candy Island/88_Unicorn_Rainbow.png"
+}

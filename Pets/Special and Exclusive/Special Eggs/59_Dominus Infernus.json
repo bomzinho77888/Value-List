@@ -1,0 +1,18 @@
+{
+  "id": "59",
+  "name": "Dominus Infernus",
+  "rarity": "Epic",
+  "egg": "Dominus Egg",
+  "area": "Special Eggs",
+  "world": "Special and Exclusive",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Special Eggs/59_Dominus Infernus.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Special Eggs/59_Dominus Infernus_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Special Eggs/59_Dominus Infernus_DarkMatter.png",
+  "strengthMin": 14700,
+  "strengthMax": 15000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Special Eggs/59_Dominus Infernus_Rainbow.png"
+}

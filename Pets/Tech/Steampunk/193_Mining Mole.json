@@ -1,0 +1,18 @@
+{
+  "id": "193",
+  "name": "Mining Mole",
+  "rarity": "Basic",
+  "egg": "Mechanical Egg",
+  "area": "Steampunk",
+  "world": "Tech",
+  "dropChance": 35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Steampunk/193_Mining Mole.png",
+  "goldenThumbnail": "Images/Tech/Steampunk/193_Mining Mole_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Steampunk/193_Mining Mole_DarkMatter.png",
+  "strengthMin": 24000000,
+  "strengthMax": 25500000,
+  "rainbowThumbnail": "Images/Tech/Steampunk/193_Mining Mole_Rainbow.png"
+}

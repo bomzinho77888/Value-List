@@ -1,0 +1,18 @@
+{
+  "id": "281",
+  "name": "Glitched Dog",
+  "rarity": "Basic",
+  "egg": "Golden Glitch Egg",
+  "area": "Glitch",
+  "world": "Tech",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Glitch/281_Glitched Dog.png",
+  "goldenThumbnail": "Images/Tech/Glitch/281_Glitched Dog_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Glitch/281_Glitched Dog_DarkMatter.png",
+  "strengthMin": 1118281250,
+  "strengthMax": 1218281250,
+  "rainbowThumbnail": "Images/Tech/Glitch/281_Glitched Dog_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "302",
+  "name": "Hellish Axolotl",
+  "rarity": "Mythical",
+  "egg": "Golden Shiny Axolotl Egg",
+  "area": "Axolotl Deep Ocean",
+  "world": "Axolotl Ocean",
+  "dropChance": 0.0005,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/302_Hellish Axolotl.png",
+  "goldenThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/302_Hellish Axolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/302_Hellish Axolotl_DarkMatter.png",
+  "strengthMin": 3530000000000,
+  "strengthMax": 3730000000000,
+  "rainbowThumbnail": "Images/Axolotl Ocean/Axolotl Deep Ocean/302_Hellish Axolotl_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "56",
+  "name": "Noob",
+  "rarity": "Epic",
+  "egg": "Spotted Egg",
+  "area": "Town",
+  "world": "Spawn",
+  "dropChance": 0.6,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Town/56_Noob.png",
+  "goldenThumbnail": "Images/Spawn/Town/56_Noob_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Town/56_Noob_DarkMatter.png",
+  "strengthMin": 27,
+  "strengthMax": 29,
+  "rainbowThumbnail": "Images/Spawn/Town/56_Noob_Rainbow.png"
+}

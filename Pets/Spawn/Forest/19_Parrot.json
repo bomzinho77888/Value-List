@@ -1,0 +1,18 @@
+{
+  "id": "19",
+  "name": "Parrot",
+  "rarity": "Basic",
+  "egg": "Golden Grass Egg",
+  "area": "Forest",
+  "world": "Spawn",
+  "dropChance": 20,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Forest/19_Parrot.png",
+  "goldenThumbnail": "Images/Spawn/Forest/19_Parrot_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Forest/19_Parrot_DarkMatter.png",
+  "strengthMin": 27,
+  "strengthMax": 28,
+  "rainbowThumbnail": "Images/Spawn/Forest/19_Parrot_Rainbow.png"
+}

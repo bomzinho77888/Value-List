@@ -1,0 +1,18 @@
+{
+  "id": "20",
+  "name": "Dino",
+  "rarity": "Rare",
+  "egg": "Relic Egg",
+  "area": "Ancient Island",
+  "world": "Fantasy",
+  "dropChance": 2.5,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Ancient Island/20_Dino.png",
+  "goldenThumbnail": "Images/Fantasy/Ancient Island/20_Dino_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Ancient Island/20_Dino_DarkMatter.png",
+  "strengthMin": 37000,
+  "strengthMax": 38000,
+  "rainbowThumbnail": "Images/Fantasy/Ancient Island/20_Dino_Rainbow.png"
+}

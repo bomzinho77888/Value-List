@@ -1,0 +1,18 @@
+{
+  "id": "48",
+  "name": "Walrus",
+  "rarity": "Basic",
+  "egg": "Ice Egg",
+  "area": "Winter",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Winter/48_Walrus.png",
+  "goldenThumbnail": "Images/Spawn/Winter/48_Walrus_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Winter/48_Walrus_DarkMatter.png",
+  "strengthMin": 280,
+  "strengthMax": 283,
+  "rainbowThumbnail": "Images/Spawn/Winter/48_Walrus_Rainbow.png"
+}

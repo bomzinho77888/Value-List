@@ -1,0 +1,18 @@
+{
+  "id": "307",
+  "name": "Huge Gargoyle Dragon",
+  "rarity": "Exclusive",
+  "egg": "Exclusive Egg",
+  "area": "Special Eggs",
+  "world": "Special and Exclusive",
+  "dropChance": 1,
+  "tradeable": true,
+  "fly": true,
+  "huge": true,
+  "thumbnail": "Images/Special and Exclusive/Special Eggs/307_Huge Gargoyle Dragon.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Special Eggs/307_Huge Gargoyle Dragon_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 0,
+  "strengthMax": 0,
+  "rainbowThumbnail": "Images/Special and Exclusive/Special Eggs/307_Huge Gargoyle Dragon_Rainbow.png"
+}

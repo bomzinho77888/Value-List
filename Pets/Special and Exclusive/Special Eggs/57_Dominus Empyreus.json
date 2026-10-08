@@ -1,0 +1,18 @@
+{
+  "id": "57",
+  "name": "Dominus Empyreus",
+  "rarity": "Epic",
+  "egg": "Dominus Egg",
+  "area": "Special Eggs",
+  "world": "Special and Exclusive",
+  "dropChance": 30,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Special Eggs/57_Dominus Empyreus.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Special Eggs/57_Dominus Empyreus_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Special Eggs/57_Dominus Empyreus_DarkMatter.png",
+  "strengthMin": 16700,
+  "strengthMax": 17000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Special Eggs/57_Dominus Empyreus_Rainbow.png"
+}

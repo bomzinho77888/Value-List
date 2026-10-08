@@ -1,0 +1,18 @@
+{
+  "id": "107",
+  "name": "Green Cobra",
+  "rarity": "Basic",
+  "egg": "Relic Egg",
+  "area": "Ancient Island",
+  "world": "Fantasy",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Ancient Island/107_Green Cobra.png",
+  "goldenThumbnail": "Images/Fantasy/Ancient Island/107_Green Cobra_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Ancient Island/107_Green Cobra_DarkMatter.png",
+  "strengthMin": 22500,
+  "strengthMax": 23000,
+  "rainbowThumbnail": "Images/Fantasy/Ancient Island/107_Green Cobra_Rainbow.png"
+}

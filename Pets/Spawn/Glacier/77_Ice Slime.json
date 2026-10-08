@@ -1,0 +1,18 @@
+{
+  "id": "77",
+  "name": "Ice Slime",
+  "rarity": "Basic",
+  "egg": "Golden Icicle Egg",
+  "area": "Glacier",
+  "world": "Spawn",
+  "dropChance": 25,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Glacier/77_Ice Slime.png",
+  "goldenThumbnail": "Images/Spawn/Glacier/77_Ice Slime_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Glacier/77_Ice Slime_DarkMatter.png",
+  "strengthMin": 425,
+  "strengthMax": 430,
+  "rainbowThumbnail": "Images/Spawn/Glacier/77_Ice Slime_Rainbow.png"
+}

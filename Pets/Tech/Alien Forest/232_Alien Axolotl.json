@@ -1,0 +1,18 @@
+{
+  "id": "232",
+  "name": "Alien Axolotl",
+  "rarity": "Epic",
+  "egg": "Golden Martian Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/232_Alien Axolotl.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/232_Alien Axolotl_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/232_Alien Axolotl_DarkMatter.png",
+  "strengthMin": 1018281250,
+  "strengthMax": 1120109375,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/232_Alien Axolotl_Rainbow.png"
+}

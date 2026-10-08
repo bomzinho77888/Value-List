@@ -1,0 +1,18 @@
+{
+  "id": "137",
+  "name": "Cupcake",
+  "rarity": "Epic",
+  "egg": "Rainbow Egg",
+  "area": "Candy Island",
+  "world": "Fantasy",
+  "dropChance": 0.325,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Candy Island/137_Cupcake.png",
+  "goldenThumbnail": "Images/Fantasy/Candy Island/137_Cupcake_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Candy Island/137_Cupcake_DarkMatter.png",
+  "strengthMin": 215000,
+  "strengthMax": 220000,
+  "rainbowThumbnail": "Images/Fantasy/Candy Island/137_Cupcake_Rainbow.png"
+}

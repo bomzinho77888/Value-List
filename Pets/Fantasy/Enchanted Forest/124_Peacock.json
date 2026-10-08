@@ -1,0 +1,18 @@
+{
+  "id": "124",
+  "name": "Peacock",
+  "rarity": "Rare",
+  "egg": "Golden Enchanted Egg",
+  "area": "Enchanted Forest",
+  "world": "Fantasy",
+  "dropChance": 3,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Enchanted Forest/124_Peacock.png",
+  "goldenThumbnail": "Images/Fantasy/Enchanted Forest/124_Peacock_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Enchanted Forest/124_Peacock_DarkMatter.png",
+  "strengthMin": 21500,
+  "strengthMax": 21800,
+  "rainbowThumbnail": "Images/Fantasy/Enchanted Forest/124_Peacock_Rainbow.png"
+}

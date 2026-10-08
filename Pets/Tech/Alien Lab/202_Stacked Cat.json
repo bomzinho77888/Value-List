@@ -1,0 +1,18 @@
+{
+  "id": "202",
+  "name": "Stacked Cat",
+  "rarity": "Rare",
+  "egg": "Golden Lab Egg",
+  "area": "Alien Lab",
+  "world": "Tech",
+  "dropChance": 3.25,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Lab/202_Stacked Cat.png",
+  "goldenThumbnail": "Images/Tech/Alien Lab/202_Stacked Cat_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Lab/202_Stacked Cat_DarkMatter.png",
+  "strengthMin": 82250000,
+  "strengthMax": 85250000,
+  "rainbowThumbnail": "Images/Tech/Alien Lab/202_Stacked Cat_Rainbow.png"
+}

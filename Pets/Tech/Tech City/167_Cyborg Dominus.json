@@ -1,0 +1,18 @@
+{
+  "id": "167",
+  "name": "Cyborg Dominus",
+  "rarity": "Legendary",
+  "egg": "Tech Egg",
+  "area": "Tech City",
+  "world": "Tech",
+  "dropChance": 0.015,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Tech City/167_Cyborg Dominus.png",
+  "goldenThumbnail": "Images/Tech/Tech City/167_Cyborg Dominus_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Tech City/167_Cyborg Dominus_DarkMatter.png",
+  "strengthMin": 9750000,
+  "strengthMax": 10000000,
+  "rainbowThumbnail": "Images/Tech/Tech City/167_Cyborg Dominus_Rainbow.png"
+}

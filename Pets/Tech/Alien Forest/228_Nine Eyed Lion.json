@@ -1,0 +1,18 @@
+{
+  "id": "228",
+  "name": "Nine Eyed Lion",
+  "rarity": "Epic",
+  "egg": "Golden Alien Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/228_Nine Eyed Lion.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/228_Nine Eyed Lion_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/228_Nine Eyed Lion_DarkMatter.png",
+  "strengthMin": 581875000,
+  "strengthMax": 640062500,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/228_Nine Eyed Lion_Rainbow.png"
+}

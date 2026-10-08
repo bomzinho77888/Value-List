@@ -1,0 +1,18 @@
+{
+  "id": "51",
+  "name": "Snow Ram",
+  "rarity": "Basic",
+  "egg": "Golden Yeti Egg",
+  "area": "Glacier",
+  "world": "Spawn",
+  "dropChance": 50,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Glacier/51_Snow Ram.png",
+  "goldenThumbnail": "Images/Spawn/Glacier/51_Snow Ram_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Glacier/51_Snow Ram_DarkMatter.png",
+  "strengthMin": 575,
+  "strengthMax": 580,
+  "rainbowThumbnail": "Images/Spawn/Glacier/51_Snow Ram_Rainbow.png"
+}

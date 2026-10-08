@@ -1,0 +1,18 @@
+{
+  "id": "207",
+  "name": "Blurred Dominus",
+  "rarity": "Epic",
+  "egg": "Chemical Egg",
+  "area": "Alien Lab",
+  "world": "Tech",
+  "dropChance": 0.34,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Lab/207_Blurred Dominus.png",
+  "goldenThumbnail": "Images/Tech/Alien Lab/207_Blurred Dominus_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Lab/207_Blurred Dominus_DarkMatter.png",
+  "strengthMin": 290937500,
+  "strengthMax": 320031250,
+  "rainbowThumbnail": "Images/Tech/Alien Lab/207_Blurred Dominus_Rainbow.png"
+}

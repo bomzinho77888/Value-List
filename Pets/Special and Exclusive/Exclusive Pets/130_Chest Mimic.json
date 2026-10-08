@@ -1,0 +1,18 @@
+{
+  "id": "130",
+  "name": "Chest Mimic",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/130_Chest Mimic.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/130_Chest Mimic_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Exclusive Pets/130_Chest Mimic_DarkMatter.png",
+  "strengthMin": 4000,
+  "strengthMax": 4000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/130_Chest Mimic_Rainbow.png"
+}

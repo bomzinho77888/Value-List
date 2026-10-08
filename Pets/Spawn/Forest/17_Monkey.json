@@ -1,0 +1,18 @@
+{
+  "id": "17",
+  "name": "Monkey",
+  "rarity": "Basic",
+  "egg": "Golden Wood Egg",
+  "area": "Forest",
+  "world": "Spawn",
+  "dropChance": 35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Forest/17_Monkey.png",
+  "goldenThumbnail": "Images/Spawn/Forest/17_Monkey_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Forest/17_Monkey_DarkMatter.png",
+  "strengthMin": 17,
+  "strengthMax": 18,
+  "rainbowThumbnail": "Images/Spawn/Forest/17_Monkey_Rainbow.png"
+}

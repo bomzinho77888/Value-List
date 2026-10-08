@@ -1,0 +1,18 @@
+{
+  "id": "13",
+  "name": "Turtle",
+  "rarity": "Basic",
+  "egg": "Golden Beachball Egg",
+  "area": "Beach",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Beach/13_Turtle.png",
+  "goldenThumbnail": "Images/Spawn/Beach/13_Turtle_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Beach/13_Turtle_DarkMatter.png",
+  "strengthMin": 38,
+  "strengthMax": 40,
+  "rainbowThumbnail": "Images/Spawn/Beach/13_Turtle_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "230",
+  "name": "Gleebo The Alien",
+  "rarity": "Basic",
+  "egg": "Golden Martian Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/230_Gleebo The Alien.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/230_Gleebo The Alien_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/230_Gleebo The Alien_DarkMatter.png",
+  "strengthMin": 290937500,
+  "strengthMax": 320031250,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/230_Gleebo The Alien_Rainbow.png"
+}

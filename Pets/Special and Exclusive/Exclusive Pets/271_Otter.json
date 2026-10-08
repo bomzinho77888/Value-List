@@ -1,0 +1,18 @@
+{
+  "id": "271",
+  "name": "Otter",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/271_Otter.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/271_Otter_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 0,
+  "strengthMax": 0,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/271_Otter_Rainbow.png"
+}

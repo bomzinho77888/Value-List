@@ -1,0 +1,18 @@
+{
+  "id": "238",
+  "name": "Alien Parasite",
+  "rarity": "Mythical",
+  "egg": "Golden Martian Egg",
+  "area": "Alien Forest",
+  "world": "Tech",
+  "dropChance": 0.00065,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Alien Forest/238_Alien Parasite.png",
+  "goldenThumbnail": "Images/Tech/Alien Forest/238_Alien Parasite_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Alien Forest/238_Alien Parasite_DarkMatter.png",
+  "strengthMin": 7127968750,
+  "strengthMax": 7427968750,
+  "rainbowThumbnail": "Images/Tech/Alien Forest/238_Alien Parasite_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "35",
+  "name": "Black Widow",
+  "rarity": "Epic",
+  "egg": "Spiked Egg",
+  "area": "Desert",
+  "world": "Spawn",
+  "dropChance": 0.25,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Desert/35_Black Widow.png",
+  "goldenThumbnail": "Images/Spawn/Desert/35_Black Widow_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Desert/35_Black Widow_DarkMatter.png",
+  "strengthMin": 3750,
+  "strengthMax": 3800,
+  "rainbowThumbnail": "Images/Spawn/Desert/35_Black Widow_Rainbow.png"
+}

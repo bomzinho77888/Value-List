@@ -1,0 +1,18 @@
+{
+  "id": "64",
+  "name": "Agony",
+  "rarity": "Legendary",
+  "egg": "Haunted Egg",
+  "area": "Haunted Island",
+  "world": "Fantasy",
+  "dropChance": 0.125,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Haunted Island/64_Agony.png",
+  "goldenThumbnail": "Images/Fantasy/Haunted Island/64_Agony_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Haunted Island/64_Agony_DarkMatter.png",
+  "strengthMin": 735000,
+  "strengthMax": 750000,
+  "rainbowThumbnail": "Images/Fantasy/Haunted Island/64_Agony_Rainbow.png"
+}

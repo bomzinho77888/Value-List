@@ -1,0 +1,18 @@
+{
+  "id": "175",
+  "name": "Happy Computer",
+  "rarity": "Epic",
+  "egg": "Golden Dark Tech Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 0.4,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/175_Happy Computer.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/175_Happy Computer_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/175_Happy Computer_DarkMatter.png",
+  "strengthMin": 22500000,
+  "strengthMax": 23000000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/175_Happy Computer_Rainbow.png"
+}

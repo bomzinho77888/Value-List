@@ -1,0 +1,18 @@
+{
+  "id": "52",
+  "name": "Snow Leopard",
+  "rarity": "Basic",
+  "egg": "Golden Icicle Egg",
+  "area": "Glacier",
+  "world": "Spawn",
+  "dropChance": 100,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Glacier/52_Snow Leopard.png",
+  "goldenThumbnail": "Images/Spawn/Glacier/52_Snow Leopard_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Glacier/52_Snow Leopard_DarkMatter.png",
+  "strengthMin": 405,
+  "strengthMax": 410,
+  "rainbowThumbnail": "Images/Spawn/Glacier/52_Snow Leopard_Rainbow.png"
+}

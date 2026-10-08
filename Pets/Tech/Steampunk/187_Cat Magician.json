@@ -1,0 +1,18 @@
+{
+  "id": "187",
+  "name": "Cat Magician",
+  "rarity": "Basic",
+  "egg": "Golden Steampunk Egg",
+  "area": "Steampunk",
+  "world": "Tech",
+  "dropChance": 35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Steampunk/187_Cat Magician.png",
+  "goldenThumbnail": "Images/Tech/Steampunk/187_Cat Magician_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Steampunk/187_Cat Magician_DarkMatter.png",
+  "strengthMin": 13650000,
+  "strengthMax": 14000000,
+  "rainbowThumbnail": "Images/Tech/Steampunk/187_Cat Magician_Rainbow.png"
+}

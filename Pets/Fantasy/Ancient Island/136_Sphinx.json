@@ -1,0 +1,18 @@
+{
+  "id": "136",
+  "name": "Sphinx",
+  "rarity": "Legendary",
+  "egg": "Relic Egg",
+  "area": "Ancient Island",
+  "world": "Fantasy",
+  "dropChance": 0.00125,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Ancient Island/136_Sphinx.png",
+  "goldenThumbnail": "Images/Fantasy/Ancient Island/136_Sphinx_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Ancient Island/136_Sphinx_DarkMatter.png",
+  "strengthMin": 119000,
+  "strengthMax": 121000,
+  "rainbowThumbnail": "Images/Fantasy/Ancient Island/136_Sphinx_Rainbow.png"
+}

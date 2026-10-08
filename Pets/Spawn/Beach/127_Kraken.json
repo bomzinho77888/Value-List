@@ -1,0 +1,18 @@
+{
+  "id": "127",
+  "name": "Kraken",
+  "rarity": "Legendary",
+  "egg": "Golden Coconut Egg",
+  "area": "Beach",
+  "world": "Spawn",
+  "dropChance": 0.125,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Beach/127_Kraken.png",
+  "goldenThumbnail": "Images/Spawn/Beach/127_Kraken_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Beach/127_Kraken_DarkMatter.png",
+  "strengthMin": 165,
+  "strengthMax": 170,
+  "rainbowThumbnail": "Images/Spawn/Beach/127_Kraken_Rainbow.png"
+}

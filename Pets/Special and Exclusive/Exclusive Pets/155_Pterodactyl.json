@@ -1,0 +1,18 @@
+{
+  "id": "155",
+  "name": "Pterodactyl",
+  "rarity": "Exclusive",
+  "egg": "Exclusive / None",
+  "area": "Exclusive Pets",
+  "world": "Special and Exclusive",
+  "dropChance": "N/A",
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Exclusive Pets/155_Pterodactyl.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Exclusive Pets/155_Pterodactyl_Golden.png",
+  "darkMatterThumbnail": "Images/Special and Exclusive/Exclusive Pets/155_Pterodactyl_DarkMatter.png",
+  "strengthMin": 80000,
+  "strengthMax": 100000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Exclusive Pets/155_Pterodactyl_Rainbow.png"
+}

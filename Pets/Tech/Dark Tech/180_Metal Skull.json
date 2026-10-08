@@ -1,0 +1,18 @@
+{
+  "id": "180",
+  "name": "Metal Skull",
+  "rarity": "Epic",
+  "egg": "Titanium Egg",
+  "area": "Dark Tech",
+  "world": "Tech",
+  "dropChance": 0.03,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Dark Tech/180_Metal Skull.png",
+  "goldenThumbnail": "Images/Tech/Dark Tech/180_Metal Skull_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Dark Tech/180_Metal Skull_DarkMatter.png",
+  "strengthMin": 12500000,
+  "strengthMax": 13000000,
+  "rainbowThumbnail": "Images/Tech/Dark Tech/180_Metal Skull_Rainbow.png"
+}

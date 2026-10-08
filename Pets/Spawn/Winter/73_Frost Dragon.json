@@ -1,0 +1,18 @@
+{
+  "id": "73",
+  "name": "Frost Dragon",
+  "rarity": "Rare",
+  "egg": "Snow Egg",
+  "area": "Winter",
+  "world": "Spawn",
+  "dropChance": 2,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Winter/73_Frost Dragon.png",
+  "goldenThumbnail": "Images/Spawn/Winter/73_Frost Dragon_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Winter/73_Frost Dragon_DarkMatter.png",
+  "strengthMin": 300,
+  "strengthMax": 305,
+  "rainbowThumbnail": "Images/Spawn/Winter/73_Frost Dragon_Rainbow.png"
+}

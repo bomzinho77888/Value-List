@@ -1,0 +1,18 @@
+{
+  "id": "96",
+  "name": "Goblin",
+  "rarity": "Basic",
+  "egg": "Relic Egg",
+  "area": "Ancient Island",
+  "world": "Fantasy",
+  "dropChance": 30,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Ancient Island/96_Goblin.png",
+  "goldenThumbnail": "Images/Fantasy/Ancient Island/96_Goblin_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Ancient Island/96_Goblin_DarkMatter.png",
+  "strengthMin": 25000,
+  "strengthMax": 25200,
+  "rainbowThumbnail": "Images/Fantasy/Ancient Island/96_Goblin_Rainbow.png"
+}

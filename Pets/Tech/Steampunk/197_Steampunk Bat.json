@@ -1,0 +1,18 @@
+{
+  "id": "197",
+  "name": "Steampunk Bat",
+  "rarity": "Rare",
+  "egg": "Golden Steampunk Egg",
+  "area": "Steampunk",
+  "world": "Tech",
+  "dropChance": 2,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Tech/Steampunk/197_Steampunk Bat.png",
+  "goldenThumbnail": "Images/Tech/Steampunk/197_Steampunk Bat_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Steampunk/197_Steampunk Bat_DarkMatter.png",
+  "strengthMin": 25500000,
+  "strengthMax": 26000000,
+  "rainbowThumbnail": "Images/Tech/Steampunk/197_Steampunk Bat_Rainbow.png"
+}

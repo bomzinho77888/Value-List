@@ -1,0 +1,18 @@
+{
+  "id": "269",
+  "name": "Gargoyle Dragon",
+  "rarity": "Exclusive",
+  "egg": "Exclusive Egg",
+  "area": "Special Eggs",
+  "world": "Special and Exclusive",
+  "dropChance": 35,
+  "tradeable": true,
+  "fly": true,
+  "huge": false,
+  "thumbnail": "Images/Special and Exclusive/Special Eggs/269_Gargoyle Dragon.png",
+  "goldenThumbnail": "Images/Special and Exclusive/Special Eggs/269_Gargoyle Dragon_Golden.png",
+  "darkMatterThumbnail": null,
+  "strengthMin": 125000000000,
+  "strengthMax": 125000000000,
+  "rainbowThumbnail": "Images/Special and Exclusive/Special Eggs/269_Gargoyle Dragon_Rainbow.png"
+}

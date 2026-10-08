@@ -1,0 +1,18 @@
+{
+  "id": "7",
+  "name": "Fox",
+  "rarity": "Basic",
+  "egg": "Golden Wood Egg",
+  "area": "Forest",
+  "world": "Spawn",
+  "dropChance": 50,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Spawn/Forest/7_Fox.png",
+  "goldenThumbnail": "Images/Spawn/Forest/7_Fox_Golden.png",
+  "darkMatterThumbnail": "Images/Spawn/Forest/7_Fox_DarkMatter.png",
+  "strengthMin": 13,
+  "strengthMax": 14,
+  "rainbowThumbnail": "Images/Spawn/Forest/7_Fox_Rainbow.png"
+}

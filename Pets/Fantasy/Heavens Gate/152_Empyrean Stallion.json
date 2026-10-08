@@ -1,0 +1,18 @@
+{
+  "id": "152",
+  "name": "Empyrean Stallion",
+  "rarity": "Epic",
+  "egg": "Empyrean Egg",
+  "area": "Heavens Gate",
+  "world": "Fantasy",
+  "dropChance": 75,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Heavens Gate/152_Empyrean Stallion.png",
+  "goldenThumbnail": "Images/Fantasy/Heavens Gate/152_Empyrean Stallion_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Heavens Gate/152_Empyrean Stallion_DarkMatter.png",
+  "strengthMin": 3500000,
+  "strengthMax": 3600000,
+  "rainbowThumbnail": "Images/Fantasy/Heavens Gate/152_Empyrean Stallion_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "283",
+  "name": "Glitched Dominus",
+  "rarity": "Epic",
+  "egg": "Golden Glitch Egg",
+  "area": "Glitch",
+  "world": "Tech",
+  "dropChance": 0.35,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Tech/Glitch/283_Glitched Dominus.png",
+  "goldenThumbnail": "Images/Tech/Glitch/283_Glitched Dominus_Golden.png",
+  "darkMatterThumbnail": "Images/Tech/Glitch/283_Glitched Dominus_DarkMatter.png",
+  "strengthMin": 3913984374,
+  "strengthMax": 4118281250,
+  "rainbowThumbnail": "Images/Tech/Glitch/283_Glitched Dominus_Rainbow.png"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "115",
+  "name": "Rainbow Slime",
+  "rarity": "Basic",
+  "egg": "Rainbow Egg",
+  "area": "Candy Island",
+  "world": "Fantasy",
+  "dropChance": 40,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Candy Island/115_Rainbow Slime.png",
+  "goldenThumbnail": "Images/Fantasy/Candy Island/115_Rainbow Slime_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Candy Island/115_Rainbow Slime_DarkMatter.png",
+  "strengthMin": 74000,
+  "strengthMax": 75000,
+  "rainbowThumbnail": "Images/Fantasy/Candy Island/115_Rainbow Slime_Rainbow.png"
+}

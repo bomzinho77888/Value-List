@@ -1,0 +1,18 @@
+{
+  "id": "102",
+  "name": "White Tiger",
+  "rarity": "Basic",
+  "egg": "Golden Samurai Egg",
+  "area": "Samurai Island",
+  "world": "Fantasy",
+  "dropChance": 15,
+  "tradeable": true,
+  "fly": false,
+  "huge": false,
+  "thumbnail": "Images/Fantasy/Samurai Island/102_White Tiger.png",
+  "goldenThumbnail": "Images/Fantasy/Samurai Island/102_White Tiger_Golden.png",
+  "darkMatterThumbnail": "Images/Fantasy/Samurai Island/102_White Tiger_DarkMatter.png",
+  "strengthMin": 53000,
+  "strengthMax": 55500,
+  "rainbowThumbnail": "Images/Fantasy/Samurai Island/102_White Tiger_Rainbow.png"
+}
