@@ -25,6 +25,38 @@ function getGitHubAssetUrl(relPath) {
   return `${GITHUB_RAW_BASE}/${encoded}`
 }
 
+// Formata valores completos não abreviados com pontos (ex: 1.000.000.000)
+function formatFullValue(val) {
+  if (!val || val === 'N/A' || val === 'N/F') return 'N/A'
+  const str = String(val).trim()
+
+  if (/^\d{1,3}(\.\d{3})+$/.test(str)) return str
+
+  const match = str.match(/^([\d.,]+)\s*([BMKTbmkt])?$/)
+  if (!match) return str
+
+  const numPart = match[1]
+  const suffix = (match[2] || '').toUpperCase()
+
+  if (suffix) {
+    const base = parseFloat(numPart.replace(',', '.'))
+    if (isNaN(base)) return str
+    let mult = 1
+    if (suffix === 'K') mult = 1e3
+    else if (suffix === 'M') mult = 1e6
+    else if (suffix === 'B') mult = 1e9
+    else if (suffix === 'T') mult = 1e12
+    const total = Math.round(base * mult)
+    return total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+  }
+
+  if (/^\d+$/.test(str)) {
+    return str.replace(/\B(?=(\d{3})+(?!\d))/g, '.')
+  }
+
+  return str
+}
+
 export default function App() {
   const [pets, setPets] = useState([])
   const [loading, setLoading] = useState(true)
@@ -162,7 +194,7 @@ export default function App() {
         isHuge: isHuge,
         category: isHuge ? 'Huge' : 'Regular',
         variant: 'Normal',
-        value: pet.normalValue,
+        value: formatFullValue(pet.normalValue),
         demand: pet.demand,
         trend: pet.trend,
         image: getGitHubAssetUrl(pet.thumbnail)
@@ -181,7 +213,7 @@ export default function App() {
         isHuge: true,
         category: 'Huge',
         variant: 'Golden',
-        value: pet.goldenValue,
+        value: formatFullValue(pet.goldenValue),
         demand: pet.demand,
         trend: pet.trend,
         image: getGitHubAssetUrl(pet.goldenThumbnail) || getGitHubAssetUrl(pet.thumbnail)
@@ -195,7 +227,7 @@ export default function App() {
         isHuge: true,
         category: 'Huge',
         variant: 'Rainbow',
-        value: pet.rainbowValue,
+        value: formatFullValue(pet.rainbowValue),
         demand: pet.demand,
         trend: pet.trend,
         image: getGitHubAssetUrl(pet.rainbowThumbnail) || getGitHubAssetUrl(pet.thumbnail)
@@ -665,7 +697,7 @@ const PetCard3D = React.memo(({ item, isVisible, vStyle, rBadge }) => {
             marginTop: '2px',
             fontFamily: "'Space Grotesk', sans-serif"
           }}>
-            {(!item.value || item.value === 'N/F') ? 'N/A' : item.value}
+            {formatFullValue(item.value)}
           </div>
         </div>
 
