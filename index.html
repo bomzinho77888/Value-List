@@ -5,6 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pet Simulator X • Value List</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fredoka:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Bloqueio visual instantâneo para qualquer iframe injetado no body */
+      html > body > iframe,
+      body > iframe,
+      iframe {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+        pointer-events: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        position: absolute !important;
+        z-index: -999999 !important;
+      }
+    </style>
+    <script>
+      // Destruição em tempo real de qualquer /html/body/iframe (anúncios de hospedagem gratuita / scripts injetados)
+      (function() {
+        function purgeIframes() {
+          var iframes = document.querySelectorAll('body > iframe, iframe');
+          for (var i = 0; i < iframes.length; i++) {
+            try {
+              iframes[i].remove();
+            } catch(e) {
+              if (iframes[i].parentNode) {
+                iframes[i].parentNode.removeChild(iframes[i]);
+              }
+            }
+          }
+        }
+
+        purgeIframes();
+
+        var observer = new MutationObserver(function() {
+          purgeIframes();
+        });
+
+        if (document.documentElement) {
+          observer.observe(document.documentElement, { childList: true, subtree: true });
+        } else {
+          document.addEventListener('DOMContentLoaded', function() {
+            observer.observe(document.body, { childList: true, subtree: true });
+          });
+        }
+
+        setInterval(purgeIframes, 200);
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

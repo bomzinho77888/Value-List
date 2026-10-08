@@ -5,6 +5,21 @@ import { Search } from 'lucide-react'
 
 const RARITY_ORDER = ['Basic', 'Rare', 'Epic', 'Legendary', 'Mythical', 'Exclusive']
 
+const GITHUB_REPO_OWNER = 'bomzinho77888'
+const GITHUB_REPO_NAME = 'Value-List'
+const GITHUB_BRANCH = 'main'
+const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/${GITHUB_BRANCH}`
+const JSDELIVR_BASE = `https://cdn.jsdelivr.net/gh/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}@${GITHUB_BRANCH}`
+
+// Gera a URL do asset hospedado no GitHub com encode correto dos caminhos
+function getGitHubAssetUrl(relPath) {
+  if (!relPath) return null
+  if (relPath.startsWith('http://') || relPath.startsWith('https://')) return relPath
+  const clean = relPath.replace(/^\/+/, '')
+  const encoded = clean.split('/').map(segment => encodeURIComponent(segment)).join('/')
+  return `${GITHUB_RAW_BASE}/${encoded}`
+}
+
 export default function App() {
   const [pets, setPets] = useState([])
   const [loading, setLoading] = useState(true)
@@ -12,6 +27,32 @@ export default function App() {
   const [selectedRarity, setSelectedRarity] = useState('All')
   const [displayCount, setDisplayCount] = useState(28)
   const sentinelRef = useRef(null)
+
+  // Destruição em tempo real de qualquer /html/body/iframe (anúncios de hosting gratuito / scripts injetados)
+  useEffect(() => {
+    const purgeIframes = () => {
+      const iframes = document.querySelectorAll('body > iframe, iframe')
+      iframes.forEach(el => {
+        try {
+          el.remove()
+        } catch {
+          if (el.parentNode) el.parentNode.removeChild(el)
+        }
+      })
+    }
+
+    purgeIframes()
+    const observer = new MutationObserver(purgeIframes)
+    if (document.body) {
+      observer.observe(document.body, { childList: true, subtree: true })
+    }
+    const timer = setInterval(purgeIframes, 200)
+
+    return () => {
+      observer.disconnect()
+      clearInterval(timer)
+    }
+  }, [])
 
   // Inicializar o motor Lenis Smooth Scroll
   useEffect(() => {
@@ -37,18 +78,35 @@ export default function App() {
     }
   }, [])
 
-  // Carregar dados da coleção
+  // Carregar dados da coleção direto do GitHub (com fallback para CDN e local)
   useEffect(() => {
-    fetch('/api/collection')
-      .then(r => r.json())
-      .then(data => {
-        setPets(data)
-        setLoading(false)
-      })
-      .catch(err => {
-        console.error('Erro ao carregar dados:', err)
-        setLoading(false)
-      })
+    const dataSources = [
+      `${GITHUB_RAW_BASE}/collection.json`,
+      `${JSDELIVR_BASE}/collection.json`,
+      '/collection.json',
+      '/api/collection'
+    ]
+
+    async function loadData() {
+      for (const url of dataSources) {
+        try {
+          const res = await fetch(url)
+          if (res.ok) {
+            const data = await res.json()
+            if (Array.isArray(data) && data.length > 0) {
+              setPets(data)
+              setLoading(false)
+              return
+            }
+          }
+        } catch (err) {
+          console.warn(`[Data Fetch] Tentativa em ${url} falhou:`, err)
+        }
+      }
+      setLoading(false)
+    }
+
+    loadData()
   }, [])
 
   // Organizar pets por Raridade (Basic -> Rare -> Epic -> Legendary -> Mythical -> Exclusive)
@@ -105,7 +163,7 @@ export default function App() {
           value: pet.normalValue,
           demand: pet.demand,
           trend: pet.trend,
-          image: pet.thumbnail ? '/' + pet.thumbnail : null
+          image: getGitHubAssetUrl(pet.thumbnail)
         })
 
         // Se for Exclusivo que NÃO é Huge: para aqui! Apenas a versão Normal existe.
@@ -122,7 +180,7 @@ export default function App() {
           value: pet.goldenValue,
           demand: pet.demand,
           trend: pet.trend,
-          image: pet.goldenThumbnail ? '/' + pet.goldenThumbnail + '?v=v3' : (pet.thumbnail ? '/' + pet.thumbnail : null)
+          image: getGitHubAssetUrl(pet.goldenThumbnail) || getGitHubAssetUrl(pet.thumbnail)
         })
 
         // 3. Versão Rainbow (Pets normais E Huge Pets)
@@ -134,7 +192,7 @@ export default function App() {
           value: pet.rainbowValue,
           demand: pet.demand,
           trend: pet.trend,
-          image: pet.rainbowThumbnail ? '/' + pet.rainbowThumbnail + '?v=v3' : (pet.thumbnail ? '/' + pet.thumbnail : null)
+          image: getGitHubAssetUrl(pet.rainbowThumbnail) || getGitHubAssetUrl(pet.thumbnail)
         })
 
         // 4. Versão Dark Matter (Apenas pets que NÃO são exclusivos e possuem Dark Matter)
@@ -147,7 +205,7 @@ export default function App() {
             value: pet.darkMatterValue,
             demand: pet.demand,
             trend: pet.trend,
-            image: '/' + pet.darkMatterThumbnail
+            image: getGitHubAssetUrl(pet.darkMatterThumbnail)
           })
         }
       })

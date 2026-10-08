@@ -20,6 +20,20 @@ html.lenis, html.lenis body {
   pointer-events: none;
 }
 
+/* Bloqueio visual total e destruição de qualquer iframe em /html/body/iframe */
+html > body > iframe,
+body > iframe,
+iframe {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  position: absolute !important;
+  z-index: -999999 !important;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
