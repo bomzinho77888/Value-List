@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react'
 import Lenis from 'lenis'
 import { motion } from 'framer-motion'
-import { Search, Sparkles } from 'lucide-react'
+import { Search } from 'lucide-react'
 
 const GITHUB_REPO_OWNER = 'bomzinho77888'
 const GITHUB_REPO_NAME = 'Value-List'
@@ -276,8 +276,21 @@ export default function App() {
         <div className="header-inner">
           {/* LADO SUPERIOR NO MOBILE / ESQUERDO NO DESKTOP */}
           <div className="header-top-row">
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
-              <Sparkles size={20} color="#c084fc" />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
+              <img 
+                src="https://raw.githubusercontent.com/bomzinho77888/Value-List/main/logo.png"
+                onError={(e) => { e.currentTarget.src = '/logo.png' }}
+                alt="Logo"
+                style={{
+                  width: '32px',
+                  height: '32px',
+                  borderRadius: '50%',
+                  objectFit: 'cover',
+                  boxShadow: '0 0 12px rgba(192, 132, 252, 0.45)',
+                  border: '1.5px solid rgba(192, 132, 252, 0.4)',
+                  flexShrink: 0
+                }}
+              />
               <h1 style={{ 
                 fontFamily: "'Space Grotesk', sans-serif",
                 fontSize: '1.25rem', 
@@ -286,20 +299,8 @@ export default function App() {
                 color: '#ffffff',
                 whiteSpace: 'nowrap'
               }}>
-                Pet Simulator X <span style={{ color: '#c084fc', fontSize: '0.85em', fontWeight: 600 }}>• Exclusives</span>
+                Pet Simulator X Return
               </h1>
-            </div>
-
-            {/* CONTADOR COM BLUR */}
-            <div className="counter-box-blur" style={{ 
-              padding: '6px 14px', 
-              fontSize: '0.74rem', 
-              fontWeight: 700,
-              color: '#c084fc',
-              whiteSpace: 'nowrap',
-              flexShrink: 0
-            }}>
-              Exclusives: <span style={{ color: '#ffffff' }}>{filteredList.length}</span>
             </div>
           </div>
 
