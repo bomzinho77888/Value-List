@@ -1,4 +1,4 @@
-# 🐾 Pet Simulator X — Value List & Database
+# 🐾 Pet Simulator X — Exclusive Value List & Database
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React 18" />
@@ -8,98 +8,99 @@
   <img src="https://img.shields.io/badge/Lenis-Smooth_Scroll-purple?style=for-the-badge" alt="Lenis" />
 </p>
 
-Uma aplicação web ultra-fluida e moderna para visualização e consulta de valores, raridades e variantes de pets do **Pet Simulator X** (Roblox). Desenvolvida com **React 18**, **Vite** e animações dinâmicas de alta performance.
+An ultra-fluid, modern web application for tracking and exploring **Pet Simulator X** (Roblox) Exclusive pet values, variants, demand, and trends. Built with **React 18**, **Vite**, **Framer Motion**, and full touch compatibility for mobile and tablet devices.
 
 ---
 
-## ✨ Funcionalidades Principais
+## ✨ Key Features
 
-- 🔍 **Busca em Tempo Real:** Pesquise instantaneamente por nome ou categoria de qualquer pet do jogo.
-- 💎 **Filtro por Raridade:** Organização por ordem oficial de raridade:
-  - *Basic* ➔ *Rare* ➔ *Epic* ➔ *Legendary* ➔ *Mythical* ➔ *Exclusive*
-- 🌈 **Visualização de Variantes:**
-  - Versão **Normal**
-  - Versão **Golden**
-  - Versão **Rainbow**
-  - Versão **Dark Matter**
-  - Regras inteligentes para pets *Exclusive* e *Huge*.
-- ⚡ **Performance e Fluidez:**
-  - Motor de rolagem **Lenis Smooth Scroll** com interpolação suave de física.
-  - Animações refinadas via **Framer Motion** e **GSAP**.
-  - Renderização otimizada com scroll infinito / lazy display.
-- 🎨 **Design Moderno:** Interface escura em tons Obsidian e Neon inspirada na identidade visual premium do jogo.
+- 💎 **Exclusives Only Catalog:** Curated database focusing exclusively on Exclusive and Huge pets with the latest trading market values.
+- 🔍 **Real-Time Search:** Instant search by pet name or variant.
+- 📱 **Mobile & Tablet Optimized:**
+  - Responsive 2-column grid layout for smartphones and compact tablets.
+  - Multi-touch 3D tilt, tactile spring physics, and dynamic holograph sheen.
+  - Horizontally swipeable filter segments with zero lag.
+- 🌈 **Official Variant Rules:**
+  - **Regular Exclusives:** Normal variant only.
+  - **Huge Pets:** Normal, Golden, and Rainbow variants.
+- 🛡️ **Anti-Adware Protection:** Real-time DOM interception that instantly purges any `/html/body/iframe` injected by free hostings or third-party scripts.
+- ⚡ **High-Performance Architecture:**
+  - **Lenis Smooth Scroll** engine with 60fps physics interpolation.
+  - Progressive lazy-loading and GPU-accelerated 3D parallax cards.
+  - Fast asset delivery directly from GitHub Raw & jsDelivr global CDN.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tech Stack
 
 - **Frontend:** [React 18](https://react.dev/)
 - **Build Tool:** [Vite](https://vitejs.dev/)
-- **Animações:** [Framer Motion](https://www.framer.com/motion/) & [GSAP](https://greensock.com/gsap/)
+- **Animations:** [Framer Motion](https://www.framer.com/motion/) & [GSAP](https://greensock.com/gsap/)
 - **Scroll Engine:** [Lenis](https://github.com/darkroomengineering/lenis)
-- **Ícones:** [Lucide React](https://lucide.dev/)
+- **Icons:** [Lucide React](https://lucide.dev/)
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```plaintext
 Value-List/
-├── Images/              # Assets e sprites dos pets organizados por mundos/zonas
-├── Values/              # Definições em JSON de valores e estatísticas de cada pet
-├── Pets/                # Metadados adicionais dos pets
+├── Images/              # Pet sprites and assets categorized by world/zone
+├── Values/              # JSON definitions containing trading values, demand & trend
+├── Pets/                # Additional pet metadata (IDs, names, rarities)
+├── collection.json      # Compiled single-file database for high-speed CDN delivery
 ├── src/
-│   ├── App.jsx          # Componente principal da aplicação e lógica de filtros
-│   ├── main.jsx         # Ponto de entrada do React
-│   └── index.css        # Estilos globais e temas
-├── index.html           # HTML base
-├── vite.config.js       # Configurações do Vite e servidor local
-└── package.json         # Dependências e scripts
+│   ├── App.jsx          # Main application, state management & touch card logic
+│   ├── main.jsx         # React application entrypoint
+│   └── index.css        # Obsidian & Neon design system with mobile media queries
+├── index.html           # HTML5 shell with iframe purge defense
+├── vite.config.js       # Vite configuration
+└── package.json         # Dependencies and build scripts
 ```
 
 ---
 
-## 🚀 Como Executar Localmente
+## 🚀 Getting Started
 
-### Pré-requisitos
-- [Node.js](https://nodejs.org/) (versão 18 ou superior)
-- Gerenciador de pacotes `npm` ou `yarn`
+### Prerequisites
+- [Node.js](https://nodejs.org/) (version 18 or newer)
+- Package manager (`npm`, `pnpm`, or `yarn`)
 
-### Passo a Passo
+### Quick Setup
 
-1. **Clone o repositório:**
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/bomzinho77888/Value-List.git
    cd Value-List
    ```
 
-2. **Instale as dependências:**
+2. **Install dependencies:**
    ```bash
    npm install
    ```
 
-3. **Inicie o servidor de desenvolvimento:**
+3. **Start local development server:**
    ```bash
    npm run dev
    ```
 
-4. **Acesse no navegador:**
-   Abra `http://localhost:5173` para visualizar a aplicação.
+4. **Open in browser:**
+   Navigate to `http://localhost:5173` to explore the value list.
 
 ---
 
-## 📦 Build para Produção
+## 📦 Production Build
 
-Para gerar a versão otimizada pronta para deploy:
+To build the static optimized application for production (ready for Vercel, Netlify, or GitHub Pages):
 
 ```bash
 npm run build
 ```
 
-Os arquivos compilados estarão na pasta `dist/`.
+Production output will be generated inside the `dist/` directory.
 
 ---
 
-## 📜 Licença
+## 📜 License
 
-Distribuído sob a licença MIT. Sinta-se livre para customizar e expandir a base de dados!
+Distributed under the MIT License.

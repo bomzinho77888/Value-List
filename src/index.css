@@ -253,3 +253,230 @@ body {
   mix-blend-mode: overlay;
   transition: opacity 0.4s ease;
 }
+
+/* Container principal com padding responsivo */
+.main-content-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 24px 20px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Dimensões padrão dos elementos dos cards (Desktop) */
+.curved-card-3d {
+  height: 340px;
+  padding: 20px 18px;
+}
+
+.pet-image-container {
+  height: 130px;
+  margin: 10px 0;
+}
+
+.pet-name-title {
+  font-size: 1.02rem;
+  margin-bottom: 14px;
+}
+
+.value-box-blur {
+  padding: 12px;
+}
+
+.pet-value-display {
+  font-size: 1.08rem;
+}
+
+.badge-pill {
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+}
+
+.card-badges-row {
+  margin-bottom: 10px;
+}
+
+.card-footer-info {
+  margin-top: 10px;
+  padding: 0 6px;
+}
+
+/* ========================================================
+   RESPONSIVIDADE: TABLETS E CELULARES (TOUCH SCREENS)
+   ======================================================== */
+
+.curved-card-3d,
+button,
+input {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Header Container */
+.header-inner {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header-top-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+/* TABLETS (Telas de 769px a 1024px) */
+@media (max-width: 1024px) {
+  body {
+    padding-top: 92px;
+  }
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) !important;
+    gap: 14px !important;
+  }
+  .integrated-searchbar {
+    max-width: 100%;
+  }
+}
+
+/* SMARTPHONES E TABLETS COMPACTOS (Telas até 768px) */
+@media (max-width: 768px) {
+  body {
+    padding-top: 124px;
+  }
+
+  .main-content-container {
+    padding: 14px 10px;
+  }
+
+  .fixed-header {
+    padding: 8px 12px;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+  }
+
+  .header-top-row {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .integrated-searchbar {
+    width: 100%;
+    max-width: 100%;
+    padding: 5px 6px 5px 12px;
+    gap: 8px;
+  }
+
+  .integrated-searchbar input {
+    font-size: 0.8rem !important;
+    min-width: 60px !important;
+  }
+
+  .filter-segmented-group {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    max-width: 100%;
+    padding: 2px;
+  }
+
+  .filter-segmented-group::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-segmented-group button {
+    padding: 4px 10px !important;
+    font-size: 0.68rem !important;
+  }
+
+  /* Grid em 2 colunas no celular */
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 10px !important;
+  }
+
+  /* Layout otimizado do card no celular */
+  .curved-card-3d {
+    height: 295px !important;
+    padding: 12px 10px !important;
+    border-radius: 20px !important;
+  }
+
+  .card-glass-bg,
+  .card-sheen-overlay {
+    border-radius: 20px !important;
+  }
+
+  .card-badges-row {
+    margin-bottom: 6px !important;
+  }
+
+  .badge-pill {
+    padding: 2px 7px !important;
+    font-size: 0.58rem !important;
+  }
+
+  .pet-image-container {
+    height: 96px !important;
+    margin: 4px 0 !important;
+  }
+
+  .pet-name-title {
+    font-size: 0.86rem !important;
+    margin-bottom: 6px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 2px;
+  }
+
+  .value-box-blur {
+    padding: 8px 6px !important;
+    border-radius: 14px !important;
+  }
+
+  .pet-value-display {
+    font-size: 1.1rem !important;
+  }
+
+  .card-footer-info {
+    font-size: 0.62rem !important;
+    margin-top: 6px !important;
+    padding: 0 2px !important;
+  }
+}
+
+/* SMARTPHONES PEQUENOS (Abaixo de 380px) */
+@media (max-width: 380px) {
+  body {
+    padding-top: 120px;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 8px !important;
+  }
+
+  .curved-card-3d {
+    height: 280px !important;
+    padding: 10px 8px !important;
+  }
+
+  .pet-image-container {
+    height: 85px !important;
+  }
+
+  .pet-value-display {
+    font-size: 1.0rem !important;
+  }
+}
+

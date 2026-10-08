@@ -1,15 +1,20 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react'
 import Lenis from 'lenis'
 import { motion } from 'framer-motion'
-import { Search } from 'lucide-react'
-
-const RARITY_ORDER = ['Basic', 'Rare', 'Epic', 'Legendary', 'Mythical', 'Exclusive']
+import { Search, Sparkles } from 'lucide-react'
 
 const GITHUB_REPO_OWNER = 'bomzinho77888'
 const GITHUB_REPO_NAME = 'Value-List'
 const GITHUB_BRANCH = 'main'
 const GITHUB_RAW_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}/${GITHUB_BRANCH}`
 const JSDELIVR_BASE = `https://cdn.jsdelivr.net/gh/${GITHUB_REPO_OWNER}/${GITHUB_REPO_NAME}@${GITHUB_BRANCH}`
+
+// Filtros específicos para a lista exclusiva
+const EXCLUSIVE_FILTERS = [
+  { id: 'All', label: 'All' },
+  { id: 'Regular', label: 'Regular' },
+  { id: 'Huge', label: 'Huge' }
+]
 
 // Gera a URL do asset hospedado no GitHub com encode correto dos caminhos
 function getGitHubAssetUrl(relPath) {
@@ -24,7 +29,7 @@ export default function App() {
   const [pets, setPets] = useState([])
   const [loading, setLoading] = useState(true)
   const [search, setSearch] = useState('')
-  const [selectedRarity, setSelectedRarity] = useState('All')
+  const [selectedFilter, setSelectedFilter] = useState('All')
   const [displayCount, setDisplayCount] = useState(28)
   const sentinelRef = useRef(null)
 
@@ -109,129 +114,110 @@ export default function App() {
     loadData()
   }, [])
 
-  // Organizar pets por Raridade (Basic -> Rare -> Epic -> Legendary -> Mythical -> Exclusive)
-  // REGRA OFICIAL DE EXCLUSIVOS:
-  // - Exclusivo Normal (não Huge): SOMENTE versão Normal (sem Gold, sem Rainbow, sem Dark Matter)
-  // - Exclusivo Huge: SOMENTE Normal, Gold e Rainbow (sem Dark Matter)
-  // - Pets normais (Basic, Rare, Epic, Legendary, Mythical): Normal, Gold, Rainbow e Dark Matter (se houver)
+  // ========================================================
+  // EXCLUSIVOS ONLY: Filtra exclusivamente pets da raridade Exclusive
+  // ========================================================
+  const exclusivePets = useMemo(() => {
+    return pets.filter(pet => {
+      const isExclusive = pet.rarity === 'Exclusive' || (pet.name && pet.name.toLowerCase().includes('huge'))
+      return isExclusive
+    })
+  }, [pets])
+
+  // Organizar pets exclusivos:
+  // - Exclusivo Normal (não Huge): SOMENTE versão Normal (sem Gold, sem Rainbow)
+  // - Exclusivo Huge: Versão Normal, Gold e Rainbow
   const organizedList = useMemo(() => {
-    const byRarity = {}
-    RARITY_ORDER.forEach(r => { byRarity[r] = [] })
+    const regularPets = []
+    const hugePets = []
 
-    pets.forEach(pet => {
-      const r = pet.rarity || 'Basic'
-      if (!byRarity[r]) byRarity[r] = []
-      byRarity[r].push(pet)
+    exclusivePets.forEach(pet => {
+      const isHuge = pet.huge === true || pet.name.toLowerCase().includes('huge')
+      if (isHuge) {
+        hugePets.push(pet)
+      } else {
+        regularPets.push(pet)
+      }
     })
 
-    Object.keys(byRarity).forEach(r => {
-      byRarity[r].sort((a, b) => (parseInt(a.id, 10) || 0) - (parseInt(b.id, 10) || 0))
-    })
+    regularPets.sort((a, b) => (parseInt(a.id, 10) || 0) - (parseInt(b.id, 10) || 0))
+    hugePets.sort((a, b) => (parseInt(a.id, 10) || 0) - (parseInt(b.id, 10) || 0))
 
+    const sortedPets = [...regularPets, ...hugePets]
     const fullExpanded = []
 
-    RARITY_ORDER.forEach(rarityName => {
-      const petGroup = byRarity[rarityName] || []
-      
-      const regularPets = []
-      const hugePets = []
+    sortedPets.forEach(pet => {
+      const isHuge = pet.huge === true || pet.name.toLowerCase().includes('huge')
 
-      petGroup.forEach(pet => {
-        const isHuge = pet.huge === true || pet.name.toLowerCase().includes('huge')
-        if (isHuge) {
-          hugePets.push(pet)
-        } else {
-          regularPets.push(pet)
-        }
+      // 1. Versão Normal (todos os exclusivos possuem)
+      fullExpanded.push({
+        id: pet.id,
+        name: pet.name,
+        rarity: 'Exclusive',
+        isHuge: isHuge,
+        category: isHuge ? 'Huge' : 'Regular',
+        variant: 'Normal',
+        value: pet.normalValue,
+        demand: pet.demand,
+        trend: pet.trend,
+        image: getGitHubAssetUrl(pet.thumbnail)
       })
 
-      regularPets.sort((a, b) => (parseInt(a.id, 10) || 0) - (parseInt(b.id, 10) || 0))
-      hugePets.sort((a, b) => (parseInt(a.id, 10) || 0) - (parseInt(b.id, 10) || 0))
+      // Se for Exclusivo que NÃO é Huge: para aqui!
+      if (!isHuge) {
+        return
+      }
 
-      const sortedPets = [...regularPets, ...hugePets]
-      
-      sortedPets.forEach(pet => {
-        const isExclusive = pet.rarity === 'Exclusive'
-        const isHuge = pet.huge === true || pet.name.toLowerCase().includes('huge')
+      // 2. Versão Golden (apenas Huge Pets)
+      fullExpanded.push({
+        id: pet.id,
+        name: pet.name,
+        rarity: 'Exclusive',
+        isHuge: true,
+        category: 'Huge',
+        variant: 'Golden',
+        value: pet.goldenValue,
+        demand: pet.demand,
+        trend: pet.trend,
+        image: getGitHubAssetUrl(pet.goldenThumbnail) || getGitHubAssetUrl(pet.thumbnail)
+      })
 
-        // 1. Versão Normal (todos os pets têm)
-        fullExpanded.push({
-          id: pet.id,
-          name: pet.name,
-          rarity: pet.rarity,
-          variant: 'Normal',
-          value: pet.normalValue,
-          demand: pet.demand,
-          trend: pet.trend,
-          image: getGitHubAssetUrl(pet.thumbnail)
-        })
-
-        // Se for Exclusivo que NÃO é Huge: para aqui! Apenas a versão Normal existe.
-        if (isExclusive && !isHuge) {
-          return
-        }
-
-        // 2. Versão Golden (Pets normais E Huge Pets)
-        fullExpanded.push({
-          id: pet.id,
-          name: pet.name,
-          rarity: pet.rarity,
-          variant: 'Golden',
-          value: pet.goldenValue,
-          demand: pet.demand,
-          trend: pet.trend,
-          image: getGitHubAssetUrl(pet.goldenThumbnail) || getGitHubAssetUrl(pet.thumbnail)
-        })
-
-        // 3. Versão Rainbow (Pets normais E Huge Pets)
-        fullExpanded.push({
-          id: pet.id,
-          name: pet.name,
-          rarity: pet.rarity,
-          variant: 'Rainbow',
-          value: pet.rainbowValue,
-          demand: pet.demand,
-          trend: pet.trend,
-          image: getGitHubAssetUrl(pet.rainbowThumbnail) || getGitHubAssetUrl(pet.thumbnail)
-        })
-
-        // 4. Versão Dark Matter (Apenas pets que NÃO são exclusivos e possuem Dark Matter)
-        if (!isExclusive && pet.darkMatterThumbnail) {
-          fullExpanded.push({
-            id: pet.id,
-            name: pet.name,
-            rarity: pet.rarity,
-            variant: 'Dark Matter',
-            value: pet.darkMatterValue,
-            demand: pet.demand,
-            trend: pet.trend,
-            image: getGitHubAssetUrl(pet.darkMatterThumbnail)
-          })
-        }
+      // 3. Versão Rainbow (apenas Huge Pets)
+      fullExpanded.push({
+        id: pet.id,
+        name: pet.name,
+        rarity: 'Exclusive',
+        isHuge: true,
+        category: 'Huge',
+        variant: 'Rainbow',
+        value: pet.rainbowValue,
+        demand: pet.demand,
+        trend: pet.trend,
+        image: getGitHubAssetUrl(pet.rainbowThumbnail) || getGitHubAssetUrl(pet.thumbnail)
       })
     })
 
     return fullExpanded
-  }, [pets])
+  }, [exclusivePets])
 
   // Reseta a paginação ao mudar filtro ou busca (carregamento instantâneo)
   useEffect(() => {
     setDisplayCount(28)
-  }, [search, selectedRarity])
+  }, [search, selectedFilter])
 
-  // Filtragem exclusivamente por Raridade e Busca
+  // Filtragem por Categoria (Todos, Exclusivos Normais, Huges) e Busca
   const filteredList = useMemo(() => {
     return organizedList.filter(item => {
       const matchSearch = search === '' || 
                           item.name.toLowerCase().includes(search.toLowerCase()) || 
                           item.variant.toLowerCase().includes(search.toLowerCase()) ||
                           item.id.toString().includes(search)
-      const matchRarity = selectedRarity === 'All' || item.rarity === selectedRarity
-      return matchSearch && matchRarity
+      const matchFilter = selectedFilter === 'All' || item.category === selectedFilter
+      return matchSearch && matchFilter
     })
-  }, [organizedList, search, selectedRarity])
+  }, [organizedList, search, selectedFilter])
 
-  // Itens visíveis fatiados em lotes progressivos (evita carregar 400 cards de uma vez)
+  // Itens visíveis fatiados em lotes progressivos (evita carregar centenas de cards de uma vez)
   const visibleItems = useMemo(() => {
     return filteredList.slice(0, displayCount)
   }, [filteredList, displayCount])
@@ -253,35 +239,21 @@ export default function App() {
   const getVariantStyle = (variant) => {
     switch (variant) {
       case 'Golden':
-        return { color: '#fbbf24', bg: 'rgba(70, 40, 0, 0.45)' }
+        return { color: '#fbbf24', bg: 'rgba(70, 40, 0, 0.5)' }
       case 'Rainbow':
-        return { color: '#e879f9', bg: 'rgba(80, 10, 110, 0.45)' }
-      case 'Dark Matter':
-        return { color: '#f472b6', bg: 'rgba(90, 15, 95, 0.45)' }
+        return { color: '#e879f9', bg: 'rgba(80, 10, 110, 0.5)' }
       default:
-        return { color: '#c084fc', bg: 'rgba(50, 15, 85, 0.4)' }
+        return { color: '#c084fc', bg: 'rgba(50, 15, 85, 0.45)' }
     }
   }
 
   // Badges de Raridade
-  const getRarityBadge = (rarity) => {
-    switch (rarity) {
-      case 'Exclusive':
-        return { bg: 'rgba(126, 34, 206, 0.45)', text: '#e9d5ff' }
-      case 'Mythical':
-        return { bg: 'rgba(157, 23, 77, 0.45)', text: '#f5d0fe' }
-      case 'Legendary':
-        return { bg: 'rgba(180, 83, 9, 0.45)', text: '#fde68a' }
-      case 'Epic':
-        return { bg: 'rgba(30, 64, 175, 0.45)', text: '#bfdbfe' }
-      case 'Rare':
-        return { bg: 'rgba(21, 128, 61, 0.45)', text: '#bbf7d0' }
-      default:
-        return { bg: 'rgba(50, 15, 85, 0.4)', text: '#d8b4fe' }
+  const getRarityBadge = (item) => {
+    if (item.isHuge) {
+      return { bg: 'rgba(219, 39, 119, 0.45)', text: '#fbcfe8', label: 'Huge' }
     }
+    return { bg: 'rgba(126, 34, 206, 0.45)', text: '#e9d5ff', label: 'Exclusive' }
   }
-
-  const allFilterOptions = ['All', ...RARITY_ORDER]
 
   const getFilterBorderRadius = (index, total) => {
     const isFirst = index === 0
@@ -300,64 +272,72 @@ export default function App() {
 
       {/* HEADER FIXO ULTRA TRANSLÚCIDO COM BLUR FORTE (30px) */}
       <header className="fixed-header">
-        <div style={{ 
-          maxWidth: '1440px', 
-          margin: '0 auto', 
-          display: 'flex', 
-          alignItems: 'center', 
-          justifyContent: 'space-between',
-          gap: '20px'
-        }}>
-          {/* LOGO */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
-            <h1 style={{ 
-              fontFamily: "'Space Grotesk', sans-serif",
-              fontSize: '1.35rem', 
-              fontWeight: 800, 
-              letterSpacing: '-0.02em', 
-              color: '#ffffff',
-              whiteSpace: 'nowrap'
+        <div className="header-inner">
+          {/* LADO SUPERIOR NO MOBILE / ESQUERDO NO DESKTOP */}
+          <div className="header-top-row">
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
+              <Sparkles size={20} color="#c084fc" />
+              <h1 style={{ 
+                fontFamily: "'Space Grotesk', sans-serif",
+                fontSize: '1.25rem', 
+                fontWeight: 800, 
+                letterSpacing: '-0.02em', 
+                color: '#ffffff',
+                whiteSpace: 'nowrap'
+              }}>
+                Pet Simulator X <span style={{ color: '#c084fc', fontSize: '0.85em', fontWeight: 600 }}>• Exclusivos</span>
+              </h1>
+            </div>
+
+            {/* CONTADOR COM BLUR */}
+            <div className="counter-box-blur" style={{ 
+              padding: '6px 14px', 
+              fontSize: '0.74rem', 
+              fontWeight: 700,
+              color: '#c084fc',
+              whiteSpace: 'nowrap',
+              flexShrink: 0
             }}>
-              Pet Simulator X
-            </h1>
+              Exclusivos: <span style={{ color: '#ffffff' }}>{filteredList.length}</span>
+            </div>
           </div>
 
-          {/* SEARCHBAR ULTRA TRANSLÚCIDA COM BLUR */}
+          {/* SEARCHBAR E FILTROS SEGMENTADOS */}
           <div className="integrated-searchbar">
             <Search size={18} color="#c084fc" style={{ flexShrink: 0 }} />
             <input 
               type="text"
-              placeholder="Buscar pet..."
+              placeholder="Search exclusive pet..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
               style={{
                 flex: 1,
-                minWidth: '120px',
+                minWidth: '80px',
                 background: 'transparent',
                 color: '#ffffff',
                 fontFamily: "'Plus Jakarta Sans', sans-serif",
-                fontSize: '0.88rem',
+                fontSize: '0.86rem',
                 fontWeight: 500
               }}
             />
 
             {/* SEGMENTED GROUP TRANSLÚCIDO COM BLUR */}
             <div className="filter-segmented-group">
-              {allFilterOptions.map((r, index) => {
-                const active = selectedRarity === r
-                const borderRadius = getFilterBorderRadius(index, allFilterOptions.length)
+              {EXCLUSIVE_FILTERS.map((f, index) => {
+                const active = selectedFilter === f.id
+                const borderRadius = getFilterBorderRadius(index, EXCLUSIVE_FILTERS.length)
 
                 return (
                   <button
-                    key={r}
-                    onClick={() => setSelectedRarity(r)}
+                    key={f.id}
+                    onClick={() => setSelectedFilter(f.id)}
                     style={{
                       position: 'relative',
                       background: 'transparent',
                       color: active ? '#ffffff' : '#d8b4fe',
                       borderRadius: borderRadius,
-                      padding: '7px 15px',
-                      fontSize: '0.74rem',
+                      padding: '6px 14px',
+                      fontSize: '0.72rem',
                       fontWeight: 700,
                       cursor: 'pointer',
                       whiteSpace: 'nowrap',
@@ -384,32 +364,20 @@ export default function App() {
                         }}
                       />
                     )}
-                    <span style={{ position: 'relative', zIndex: 2 }}>{r}</span>
+                    <span style={{ position: 'relative', zIndex: 2 }}>{f.label}</span>
                   </button>
                 )
               })}
             </div>
           </div>
-
-          {/* CONTADOR COM BLUR */}
-          <div className="counter-box-blur" style={{ 
-            padding: '8px 16px', 
-            fontSize: '0.78rem', 
-            fontWeight: 700,
-            color: '#c084fc',
-            whiteSpace: 'nowrap',
-            flexShrink: 0
-          }}>
-            Cards: <span style={{ color: '#ffffff' }}>{filteredList.length}</span>
-          </div>
         </div>
       </header>
 
       {/* CONTEÚDO PRINCIPAL (RENDERIZAÇÃO PROGRESSIVA EM LOTES - ZERO LAG) */}
-      <main style={{ maxWidth: '1440px', margin: '0 auto', padding: '24px 20px', position: 'relative', zIndex: 1 }}>
+      <main className="main-content-container">
         {loading ? (
           <div style={{ textAlign: 'center', padding: '80px 20px', color: '#c084fc', fontSize: '0.95rem', fontWeight: 600 }}>
-            Carregando pets...
+            Loading exclusive pets...
           </div>
         ) : (
           <>
@@ -423,7 +391,7 @@ export default function App() {
                     item={item}
                     isVisible={true}
                     vStyle={getVariantStyle(item.variant)}
-                    rBadge={getRarityBadge(item.rarity)}
+                    rBadge={getRarityBadge(item)}
                   />
                 )
               })}
@@ -444,7 +412,7 @@ export default function App() {
                   marginTop: '20px'
                 }}
               >
-                Carregando mais pets...
+                Loading more exclusives...
               </div>
             )}
           </>
@@ -454,13 +422,16 @@ export default function App() {
   )
 }
 
-// COMPONENTE DE CARD 3D COM ROTAÇÃO AO PASSAR O MOUSE & PARALLAX EM CAMADAS
-const PetCard3D = React.memo(function PetCard3D({ item, isVisible, vStyle, rBadge }) {
+// ========================================================
+// CARD 3D ULTRA TRANSLÚCIDO COM SUPORTE TOTAL A TOUCH / MOUSE
+// ========================================================
+const PetCard3D = React.memo(({ item, isVisible, vStyle, rBadge }) => {
   const cardRef = useRef(null)
   const sheenRef = useRef(null)
   const wrapperRef = useRef(null)
   const rafRef = useRef(null)
 
+  // Suporte Mouse Desktop
   const handleMouseEnter = () => {
     if (wrapperRef.current) {
       wrapperRef.current.classList.add('card-active-hover')
@@ -508,6 +479,45 @@ const PetCard3D = React.memo(function PetCard3D({ item, isVisible, vStyle, rBadg
     }
   }
 
+  // Suporte Touch Nativo (Tablets e Celulares)
+  const handleTouchStart = (e) => {
+    if (cardRef.current) {
+      cardRef.current.style.transition = 'transform 0.15s ease-out'
+      cardRef.current.style.transform = 'perspective(900px) scale3d(0.97, 0.97, 0.97)'
+    }
+    if (sheenRef.current && e.touches[0]) {
+      const rect = e.currentTarget.getBoundingClientRect()
+      const clientX = e.touches[0].clientX
+      const clientY = e.touches[0].clientY
+      const sx = (((clientX - rect.left) / rect.width) * 100).toFixed(1)
+      const sy = (((clientY - rect.top) / rect.height) * 100).toFixed(1)
+      sheenRef.current.style.background = `radial-gradient(circle 180px at ${sx}% ${sy}%, rgba(255, 255, 255, 0.4) 0%, rgba(192, 132, 252, 0.25) 40%, transparent 80%)`
+      sheenRef.current.style.opacity = '0.4'
+    }
+  }
+
+  const handleTouchMove = (e) => {
+    if (!e.touches[0] || !cardRef.current) return
+    const rect = e.currentTarget.getBoundingClientRect()
+    const clientX = e.touches[0].clientX
+    const clientY = e.touches[0].clientY
+    const x = (clientX - rect.left) / rect.width - 0.5
+    const y = (clientY - rect.top) / rect.height - 0.5
+    const rotX = (-y * 12).toFixed(1)
+    const rotY = (x * 12).toFixed(1)
+    cardRef.current.style.transform = `perspective(900px) rotateX(${rotX}deg) rotateY(${rotY}deg) scale3d(1.02, 1.02, 1.02)`
+  }
+
+  const handleTouchEnd = () => {
+    if (cardRef.current) {
+      cardRef.current.style.transition = 'transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275)'
+      cardRef.current.style.transform = 'perspective(900px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)'
+    }
+    if (sheenRef.current) {
+      sheenRef.current.style.opacity = '0'
+    }
+  }
+
   return (
     <div 
       ref={wrapperRef}
@@ -520,59 +530,53 @@ const PetCard3D = React.memo(function PetCard3D({ item, isVisible, vStyle, rBadg
         onMouseEnter={handleMouseEnter}
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
+        onTouchStart={handleTouchStart}
+        onTouchMove={handleTouchMove}
+        onTouchEnd={handleTouchEnd}
+        onTouchCancel={handleTouchEnd}
         style={{
-          padding: '20px 18px',
           display: 'flex',
           flexDirection: 'column',
-          height: '340px',
           overflow: 'visible'
         }}
       >
         {/* PLACA DE VIDRO ISOLADA (SEM CLIPAR OS ELEMENTOS 3D) */}
         <div className="card-glass-bg" />
 
-        {/* CAMADA HOLOGRÁFICA / GLOSS DE LUZ 3D QUE SEGUE O MOUSE */}
+        {/* CAMADA HOLOGRÁFICA / GLOSS DE LUZ 3D */}
         <div 
           ref={sheenRef}
           className="card-sheen-overlay"
           style={{
-            opacity: 0,
-            borderRadius: '26px'
+            opacity: 0
           }}
         />
 
         {/* TOP BADGES COM BLUR & ELEVAÇÃO 3D */}
-        <div style={{ 
+        <div className="card-badges-row" style={{ 
           display: 'flex', 
           justifyContent: 'space-between', 
           alignItems: 'center', 
-          marginBottom: '10px',
           transform: 'translateZ(26px)',
           transition: 'transform 0.25s ease-out'
         }}>
-          <span style={{ 
+          <span className="badge-pill" style={{ 
             background: rBadge.bg, 
             color: rBadge.text, 
             backdropFilter: 'blur(16px)',
             WebkitBackdropFilter: 'blur(16px)',
-            padding: '4px 12px', 
-            borderRadius: '999px', 
-            fontSize: '0.68rem', 
             fontWeight: 800,
             textTransform: 'uppercase',
             letterSpacing: '0.04em'
           }}>
-            {item.rarity}
+            {rBadge.label}
           </span>
 
-          <span style={{ 
+          <span className="badge-pill" style={{ 
             background: vStyle.bg,
             color: vStyle.color,
             backdropFilter: 'blur(16px)',
             WebkitBackdropFilter: 'blur(16px)',
-            padding: '4px 12px', 
-            borderRadius: '999px', 
-            fontSize: '0.7rem', 
             fontWeight: 800,
             textTransform: 'uppercase',
             letterSpacing: '0.04em'
@@ -581,13 +585,11 @@ const PetCard3D = React.memo(function PetCard3D({ item, isVisible, vStyle, rBadg
           </span>
         </div>
 
-        {/* IMAGEM DO PET COM PARALLAX POP-OUT 3D (SEM CLIP DESCENDANTS & SEM DRAG) */}
-        <div style={{
-          height: '130px',
+        {/* IMAGEM DO PET COM PARALLAX POP-OUT 3D */}
+        <div className="pet-image-container" style={{
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          margin: '10px 0',
           position: 'relative',
           transform: 'translateZ(46px)',
           transition: 'transform 0.25s ease-out',
@@ -616,19 +618,17 @@ const PetCard3D = React.memo(function PetCard3D({ item, isVisible, vStyle, rBadg
               }}
             />
           ) : (
-            <div style={{ color: '#6b21a8', fontSize: '0.8rem' }}>Sem foto</div>
+            <div style={{ color: '#6b21a8', fontSize: '0.8rem' }}>No image</div>
           )}
         </div>
 
         {/* NOME DO PET COM ELEVAÇÃO 3D */}
         <div style={{ 
           textAlign: 'center', 
-          marginBottom: '14px',
           transform: 'translateZ(28px)',
           transition: 'transform 0.15s ease-out'
         }}>
-          <h3 style={{ 
-            fontSize: '1.02rem', 
+          <h3 className="pet-name-title" style={{ 
             fontWeight: 700, 
             color: '#ffffff',
             fontFamily: "'Space Grotesk', sans-serif"
@@ -639,7 +639,6 @@ const PetCard3D = React.memo(function PetCard3D({ item, isVisible, vStyle, rBadg
 
         {/* VALOR EMBUTIDO COM BLUR TRANSLÚCIDO & PROFUNDIDADE 3D */}
         <div className="value-box-blur" style={{
-          padding: '12px',
           textAlign: 'center',
           marginTop: 'auto',
           transform: 'translateZ(22px)',
@@ -647,16 +646,15 @@ const PetCard3D = React.memo(function PetCard3D({ item, isVisible, vStyle, rBadg
         }}>
           <div style={{ 
             color: '#c084fc', 
-            fontSize: '0.66rem', 
+            fontSize: '0.64rem', 
             fontWeight: 700, 
             textTransform: 'uppercase',
             letterSpacing: '0.06em'
           }}>
-            Valor ({item.variant})
+            Value ({item.variant})
           </div>
-          <div style={{ 
+          <div className="pet-value-display" style={{ 
             color: '#ffffff', 
-            fontSize: '1.08rem', 
             fontWeight: 800, 
             marginTop: '2px',
             fontFamily: "'Space Grotesk', sans-serif"
@@ -666,18 +664,16 @@ const PetCard3D = React.memo(function PetCard3D({ item, isVisible, vStyle, rBadg
         </div>
 
         {/* DEMANDA E TREND */}
-        <div style={{ 
+        <div className="card-footer-info" style={{ 
           display: 'flex', 
           justifyContent: 'space-between', 
-          marginTop: '10px',
-          padding: '0 6px',
           fontSize: '0.7rem',
           color: '#c084fc',
           fontWeight: 600,
           transform: 'translateZ(18px)',
           transition: 'transform 0.15s ease-out'
         }}>
-          <span>Demanda: <strong style={{ color: '#e9d5ff' }}>{item.demand}</strong></span>
+          <span>Demand: <strong style={{ color: '#e9d5ff' }}>{item.demand}</strong></span>
           <span>Trend: <strong style={{ color: '#e9d5ff' }}>{item.trend}</strong></span>
         </div>
       </div>
