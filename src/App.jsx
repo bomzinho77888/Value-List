@@ -120,7 +120,11 @@ export default function App() {
   // ========================================================
   const exclusivePets = useMemo(() => {
     return pets.filter(pet => {
-      const isExclusive = pet.rarity === 'Exclusive' || (pet.name && pet.name.toLowerCase().includes('huge'))
+      const petName = (pet.name || '').toLowerCase()
+      if (pet.id === '183' || pet.id === 183 || petName.includes('blue big maskot')) {
+        return false
+      }
+      const isExclusive = pet.rarity === 'Exclusive' || petName.includes('huge')
       return isExclusive
     })
   }, [pets])
