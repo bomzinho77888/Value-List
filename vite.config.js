@@ -36,12 +36,12 @@ function valueListApiPlugin() {
 
                 allPets.push({
                   ...petContent,
-                  normalValue: valContent.normalValue ?? 'N/F',
-                  goldenValue: valContent.goldenValue ?? 'N/F',
-                  rainbowValue: valContent.rainbowValue ?? 'N/F',
-                  darkMatterValue: valContent.darkMatterValue ?? 'N/F',
-                  demand: valContent.demand ?? 'N/F',
-                  trend: valContent.trend ?? 'N/F',
+                  normalValue: valContent.normalValue ?? 'N/A',
+                  goldenValue: valContent.goldenValue ?? 'N/A',
+                  rainbowValue: valContent.rainbowValue ?? 'N/A',
+                  darkMatterValue: valContent.darkMatterValue ?? 'N/A',
+                  demand: valContent.demand ?? 'N/A',
+                  trend: valContent.trend ?? 'N/A',
                   relPath: rel.replace(/\\/g, '/')
                 })
               }

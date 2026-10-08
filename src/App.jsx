@@ -83,19 +83,20 @@ export default function App() {
     }
   }, [])
 
-  // Carregar dados da coleção direto do GitHub (com fallback para CDN e local)
+  // Load collection data directly with cache busting to guarantee immediate updates
   useEffect(() => {
+    const timestamp = Date.now()
     const dataSources = [
-      `${GITHUB_RAW_BASE}/collection.json`,
-      `${JSDELIVR_BASE}/collection.json`,
-      '/collection.json',
+      `${GITHUB_RAW_BASE}/collection.json?t=${timestamp}`,
+      `/collection.json?t=${timestamp}`,
+      `${JSDELIVR_BASE}/collection.json?t=${timestamp}`,
       '/api/collection'
     ]
 
     async function loadData() {
       for (const url of dataSources) {
         try {
-          const res = await fetch(url)
+          const res = await fetch(url, { cache: 'no-store' })
           if (res.ok) {
             const data = await res.json()
             if (Array.isArray(data) && data.length > 0) {
@@ -105,7 +106,7 @@ export default function App() {
             }
           }
         } catch (err) {
-          console.warn(`[Data Fetch] Tentativa em ${url} falhou:`, err)
+          console.warn(`[Data Fetch] Attempt at ${url} failed:`, err)
         }
       }
       setLoading(false)
@@ -285,7 +286,7 @@ export default function App() {
                 color: '#ffffff',
                 whiteSpace: 'nowrap'
               }}>
-                Pet Simulator X <span style={{ color: '#c084fc', fontSize: '0.85em', fontWeight: 600 }}>• Exclusivos</span>
+                Pet Simulator X <span style={{ color: '#c084fc', fontSize: '0.85em', fontWeight: 600 }}>• Exclusives</span>
               </h1>
             </div>
 
@@ -298,7 +299,7 @@ export default function App() {
               whiteSpace: 'nowrap',
               flexShrink: 0
             }}>
-              Exclusivos: <span style={{ color: '#ffffff' }}>{filteredList.length}</span>
+              Exclusives: <span style={{ color: '#ffffff' }}>{filteredList.length}</span>
             </div>
           </div>
 
@@ -659,7 +660,7 @@ const PetCard3D = React.memo(({ item, isVisible, vStyle, rBadge }) => {
             marginTop: '2px',
             fontFamily: "'Space Grotesk', sans-serif"
           }}>
-            {item.value}
+            {(!item.value || item.value === 'N/F') ? 'N/A' : item.value}
           </div>
         </div>
 
@@ -673,8 +674,8 @@ const PetCard3D = React.memo(({ item, isVisible, vStyle, rBadge }) => {
           transform: 'translateZ(18px)',
           transition: 'transform 0.15s ease-out'
         }}>
-          <span>Demand: <strong style={{ color: '#e9d5ff' }}>{item.demand}</strong></span>
-          <span>Trend: <strong style={{ color: '#e9d5ff' }}>{item.trend}</strong></span>
+          <span>Demand: <strong style={{ color: '#e9d5ff' }}>{(!item.demand || item.demand === 'N/F') ? 'N/A' : item.demand}</strong></span>
+          <span>Trend: <strong style={{ color: '#e9d5ff' }}>{(!item.trend || item.trend === 'N/F') ? 'N/A' : item.trend}</strong></span>
         </div>
       </div>
     </div>
